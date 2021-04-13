@@ -9,12 +9,12 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
-    "\/SketchDemo\/Assets\/Images\/Compressed\/Booths.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Compressed\/Booths.jpg" : {
       "ft" : 16384,
       "iS" : 18675,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Compressed\/Booths.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Booths.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -22,12 +22,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Compressed\/Breakfast.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Compressed\/Breakfast.jpg" : {
       "ft" : 16384,
       "iS" : 91290,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Compressed\/Breakfast.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Breakfast.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -35,12 +35,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Compressed\/Burger.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Compressed\/Burger.jpg" : {
       "ft" : 16384,
       "iS" : 72215,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Compressed\/Burger.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Burger.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -48,12 +48,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Compressed\/Diner1.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Compressed\/Diner1.jpg" : {
       "ft" : 16384,
       "iS" : 295418,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Compressed\/Diner1.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Diner1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -61,12 +61,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Compressed\/Diner2.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Compressed\/Diner2.jpg" : {
       "ft" : 16384,
       "iS" : 14289,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Compressed\/Diner2.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Diner2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -74,12 +74,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Compressed\/Diner3.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Compressed\/Diner3.jpg" : {
       "ft" : 16384,
       "iS" : 329455,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Compressed\/Diner3.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Diner3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -87,12 +87,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Compressed\/Fries.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Compressed\/Fries.jpg" : {
       "ft" : 16384,
       "iS" : 149890,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Compressed\/Fries.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Fries.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -100,12 +100,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Compressed\/Jukebox.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Compressed\/Jukebox.jpg" : {
       "ft" : 16384,
       "iS" : 133174,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Compressed\/Jukebox.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Jukebox.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -113,12 +113,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Compressed\/Milkshake.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Compressed\/Milkshake.jpg" : {
       "ft" : 16384,
       "iS" : 81151,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Compressed\/Milkshake.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Milkshake.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -126,11 +126,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Compressed\/NiftyLogo.png" : {
+    "\/HTMLHomework\/Assets\/Images\/Compressed\/NiftyLogo.png" : {
       "ft" : 32768,
       "iS" : 50159,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Compressed\/NiftyLogo.png",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/NiftyLogo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -139,12 +139,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Compressed\/Soda.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Compressed\/Soda.jpg" : {
       "ft" : 16384,
       "iS" : 107109,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Compressed\/Soda.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Soda.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -152,12 +152,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Compressed\/Stools.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Compressed\/Stools.jpg" : {
       "ft" : 16384,
       "iS" : 33938,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Compressed\/Stools.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Stools.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -165,12 +165,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Original\/Booths.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Original\/Booths.jpg" : {
       "ft" : 16384,
       "iS" : 4655603,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Original\/Booths.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Original\/Booths.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -178,12 +178,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Original\/Breakfast.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Original\/Breakfast.jpg" : {
       "ft" : 16384,
       "iS" : 2872399,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Original\/Breakfast.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Original\/Breakfast.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -191,12 +191,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Original\/Burger.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Original\/Burger.jpg" : {
       "ft" : 16384,
       "iS" : 1172521,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Original\/Burger.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Original\/Burger.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -204,12 +204,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Original\/Diner1.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Original\/Diner1.jpg" : {
       "ft" : 16384,
       "iS" : 2762269,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Original\/Diner1.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Original\/Diner1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -217,12 +217,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Original\/Diner2.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Original\/Diner2.jpg" : {
       "ft" : 16384,
       "iS" : 1980962,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Original\/Diner2.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Original\/Diner2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -230,12 +230,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Original\/Diner3.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Original\/Diner3.jpg" : {
       "ft" : 16384,
       "iS" : 3905468,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Original\/Diner3.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Original\/Diner3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -243,12 +243,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Original\/Fries.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Original\/Fries.jpg" : {
       "ft" : 16384,
       "iS" : 1937899,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Original\/Fries.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Original\/Fries.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -256,12 +256,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Original\/Jukebox.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Original\/Jukebox.jpg" : {
       "ft" : 16384,
       "iS" : 5493683,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Original\/Jukebox.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Original\/Jukebox.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -269,12 +269,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Original\/Milkshake.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Original\/Milkshake.jpg" : {
       "ft" : 16384,
       "iS" : 3926458,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Original\/Milkshake.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Original\/Milkshake.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -282,11 +282,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Original\/NiftyLogo.png" : {
+    "\/HTMLHomework\/Assets\/Images\/Original\/NiftyLogo.png" : {
       "ft" : 32768,
       "iS" : 166856,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Original\/NiftyLogo.png",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Original\/NiftyLogo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -295,12 +295,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Original\/Soda.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Original\/Soda.jpg" : {
       "ft" : 16384,
       "iS" : 1342133,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Original\/Soda.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Original\/Soda.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -308,12 +308,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Original\/Stools.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Original\/Stools.jpg" : {
       "ft" : 16384,
       "iS" : 3753710,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Original\/Stools.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Original\/Stools.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -321,12 +321,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Resize\/Booths.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Resize\/Booths.jpg" : {
       "ft" : 16384,
       "iS" : 32303,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Resize\/Booths.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Resize\/Booths.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -334,12 +334,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Resize\/Breakfast.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Resize\/Breakfast.jpg" : {
       "ft" : 16384,
       "iS" : 159616,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Resize\/Breakfast.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Resize\/Breakfast.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -347,12 +347,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Resize\/Burger.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Resize\/Burger.jpg" : {
       "ft" : 16384,
       "iS" : 134170,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Resize\/Burger.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Resize\/Burger.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -360,12 +360,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Resize\/Diner1.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Resize\/Diner1.jpg" : {
       "ft" : 16384,
       "iS" : 998286,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Resize\/Diner1.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Resize\/Diner1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -373,12 +373,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Resize\/Diner2.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Resize\/Diner2.jpg" : {
       "ft" : 16384,
       "iS" : 25766,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Resize\/Diner2.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Resize\/Diner2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -386,12 +386,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Resize\/Diner3.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Resize\/Diner3.jpg" : {
       "ft" : 16384,
       "iS" : 1652671,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Resize\/Diner3.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Resize\/Diner3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -399,12 +399,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Resize\/Fries.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Resize\/Fries.jpg" : {
       "ft" : 16384,
       "iS" : 272352,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Resize\/Fries.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Resize\/Fries.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -412,12 +412,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Resize\/Jukebox.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Resize\/Jukebox.jpg" : {
       "ft" : 16384,
       "iS" : 288588,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Resize\/Jukebox.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Resize\/Jukebox.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -425,12 +425,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Resize\/Milkshake.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Resize\/Milkshake.jpg" : {
       "ft" : 16384,
       "iS" : 160582,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Resize\/Milkshake.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Resize\/Milkshake.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -438,12 +438,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Resize\/NiftyLogo.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Resize\/NiftyLogo.jpg" : {
       "ft" : 16384,
       "iS" : 5486,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Resize\/NiftyLogo.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Resize\/NiftyLogo.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -451,12 +451,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Resize\/Soda.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Resize\/Soda.jpg" : {
       "ft" : 16384,
       "iS" : 206678,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Resize\/Soda.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Resize\/Soda.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -464,12 +464,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Assets\/Images\/Resize\/Stools.jpg" : {
+    "\/HTMLHomework\/Assets\/Images\/Resize\/Stools.jpg" : {
       "ft" : 16384,
       "iS" : 201684,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Assets\/Images\/Resize\/Stools.jpg",
+      "oAP" : "\/HTMLHomework\/Assets\/Images\/Resize\/Stools.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -477,11 +477,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Deploy\/img\/Hero1\/franchise.png" : {
+    "\/HTMLHomework\/Deploy\/img\/Hero1\/franchise.png" : {
       "ft" : 32768,
       "iS" : 23513,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Deploy\/img\/Hero1\/franchise.png",
+      "oAP" : "\/HTMLHomework\/Deploy\/img\/Hero1\/franchise.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -490,12 +490,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Deploy\/img\/Hero1\/hero1.jpg" : {
+    "\/HTMLHomework\/Deploy\/img\/Hero1\/hero1.jpg" : {
       "ft" : 16384,
       "iS" : 2092611,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Deploy\/img\/Hero1\/hero1.jpg",
+      "oAP" : "\/HTMLHomework\/Deploy\/img\/Hero1\/hero1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -503,11 +503,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Deploy\/img\/Hero1\/work.png" : {
+    "\/HTMLHomework\/Deploy\/img\/Hero1\/work.png" : {
       "ft" : 32768,
       "iS" : 23623,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Deploy\/img\/Hero1\/work.png",
+      "oAP" : "\/HTMLHomework\/Deploy\/img\/Hero1\/work.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -516,12 +516,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Deploy\/img\/Hero2\/aside.jpg" : {
+    "\/HTMLHomework\/Deploy\/img\/Hero2\/aside.jpg" : {
       "ft" : 16384,
       "iS" : 175889,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Deploy\/img\/Hero2\/aside.jpg",
+      "oAP" : "\/HTMLHomework\/Deploy\/img\/Hero2\/aside.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -529,12 +529,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Deploy\/img\/Hero2\/hero2.jpg" : {
+    "\/HTMLHomework\/Deploy\/img\/Hero2\/hero2.jpg" : {
       "ft" : 16384,
       "iS" : 1049493,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Deploy\/img\/Hero2\/hero2.jpg",
+      "oAP" : "\/HTMLHomework\/Deploy\/img\/Hero2\/hero2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -542,12 +542,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Deploy\/img\/Hero2\/hero3.jpg" : {
+    "\/HTMLHomework\/Deploy\/img\/Hero2\/hero3.jpg" : {
       "ft" : 16384,
       "iS" : 223311,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Deploy\/img\/Hero2\/hero3.jpg",
+      "oAP" : "\/HTMLHomework\/Deploy\/img\/Hero2\/hero3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -555,12 +555,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Deploy\/img\/Menu\/Breakfast.jpg" : {
+    "\/HTMLHomework\/Deploy\/img\/Menu\/Breakfast.jpg" : {
       "ft" : 16384,
       "iS" : 164216,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Deploy\/img\/Menu\/Breakfast.jpg",
+      "oAP" : "\/HTMLHomework\/Deploy\/img\/Menu\/Breakfast.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -568,12 +568,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Deploy\/img\/Menu\/Burger.jpg" : {
+    "\/HTMLHomework\/Deploy\/img\/Menu\/Burger.jpg" : {
       "ft" : 16384,
       "iS" : 104009,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Deploy\/img\/Menu\/Burger.jpg",
+      "oAP" : "\/HTMLHomework\/Deploy\/img\/Menu\/Burger.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -581,12 +581,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Deploy\/img\/Menu\/Fries.jpg" : {
+    "\/HTMLHomework\/Deploy\/img\/Menu\/Fries.jpg" : {
       "ft" : 16384,
       "iS" : 151670,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Deploy\/img\/Menu\/Fries.jpg",
+      "oAP" : "\/HTMLHomework\/Deploy\/img\/Menu\/Fries.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -594,12 +594,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Deploy\/img\/Menu\/Milkshake.jpg" : {
+    "\/HTMLHomework\/Deploy\/img\/Menu\/Milkshake.jpg" : {
       "ft" : 16384,
       "iS" : 78799,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Deploy\/img\/Menu\/Milkshake.jpg",
+      "oAP" : "\/HTMLHomework\/Deploy\/img\/Menu\/Milkshake.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -607,12 +607,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Deploy\/img\/Menu\/Soda.jpg" : {
+    "\/HTMLHomework\/Deploy\/img\/Menu\/Soda.jpg" : {
       "ft" : 16384,
       "iS" : 117673,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Deploy\/img\/Menu\/Soda.jpg",
+      "oAP" : "\/HTMLHomework\/Deploy\/img\/Menu\/Soda.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -620,12 +620,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Deploy\/img\/NiftyLogo.jpg" : {
+    "\/HTMLHomework\/Deploy\/img\/NiftyLogo.jpg" : {
       "ft" : 16384,
       "iS" : 14057,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Deploy\/img\/NiftyLogo.jpg",
+      "oAP" : "\/HTMLHomework\/Deploy\/img\/NiftyLogo.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -633,79 +633,79 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/SketchDemo\/Deploy\/index.html" : {
+    "\/HTMLHomework\/Deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Deploy\/index.html",
+      "oAP" : "\/HTMLHomework\/Deploy\/index.html",
       "oF" : 0
     },
-    "\/SketchDemo\/Design\/McLaughlin_DemoDesign.sketch" : {
+    "\/HTMLHomework\/Design\/McLaughlin_DemoDesign.sketch" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Design\/McLaughlin_DemoDesign.sketch",
+      "oAP" : "\/HTMLHomework\/Design\/McLaughlin_DemoDesign.sketch",
       "oF" : 0
     },
-    "\/SketchDemo\/Dev\/Content\/Hero1.kit" : {
+    "\/HTMLHomework\/Dev\/Content\/Hero1.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/SketchDemo\/Dev\/Content\/Hero1.html",
+      "oAP" : "\/HTMLHomework\/Dev\/Content\/Hero1.html",
       "oF" : 0
     },
-    "\/SketchDemo\/Dev\/Content\/Hero2.kit" : {
+    "\/HTMLHomework\/Dev\/Content\/Hero2.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/SketchDemo\/Dev\/Content\/Hero2.html",
+      "oAP" : "\/HTMLHomework\/Dev\/Content\/Hero2.html",
       "oF" : 0
     },
-    "\/SketchDemo\/Dev\/Content\/Menu.kit" : {
+    "\/HTMLHomework\/Dev\/Content\/Menu.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/SketchDemo\/Dev\/Content\/Menu.html",
+      "oAP" : "\/HTMLHomework\/Dev\/Content\/Menu.html",
       "oF" : 0
     },
-    "\/SketchDemo\/Dev\/Global\/footer.kit" : {
+    "\/HTMLHomework\/Dev\/Global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/SketchDemo\/Dev\/Global\/footer.html",
+      "oAP" : "\/HTMLHomework\/Dev\/Global\/footer.html",
       "oF" : 0
     },
-    "\/SketchDemo\/Dev\/Global\/head.kit" : {
+    "\/HTMLHomework\/Dev\/Global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/SketchDemo\/Dev\/Global\/head.html",
+      "oAP" : "\/HTMLHomework\/Dev\/Global\/head.html",
       "oF" : 0
     },
-    "\/SketchDemo\/Dev\/Global\/header.kit" : {
+    "\/HTMLHomework\/Dev\/Global\/header.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/SketchDemo\/Dev\/Global\/header.html",
+      "oAP" : "\/HTMLHomework\/Dev\/Global\/header.html",
       "oF" : 0
     },
-    "\/SketchDemo\/Dev\/Global\/scripts.kit" : {
+    "\/HTMLHomework\/Dev\/Global\/scripts.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/SketchDemo\/Dev\/Global\/scripts.html",
+      "oAP" : "\/HTMLHomework\/Dev\/Global\/scripts.html",
       "oF" : 0
     },
-    "\/SketchDemo\/Dev\/index.kit" : {
+    "\/HTMLHomework\/Dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
@@ -713,7 +713,7 @@
       "oAP" : "\/SketchDemo\/Deploy\/index.html",
       "oF" : 2
     },
-    "\/SketchDemo\/Dev\/js\/scripts.js" : {
+    "\/HTMLHomework\/Dev\/js\/scripts.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
@@ -724,7 +724,7 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/SketchDemo\/Dev\/scss\/styles.scss" : {
+    "\/HTMLHomework\/Dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
