@@ -477,6 +477,170 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/SketchDemo\/Deploy\/img\/Hero1\/franchise.png" : {
+      "ft" : 32768,
+      "iS" : 23513,
+      "oA" : 0,
+      "oAP" : "\/SketchDemo\/Deploy\/img\/Hero1\/franchise.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/SketchDemo\/Deploy\/img\/Hero1\/hero1.jpg" : {
+      "ft" : 16384,
+      "iS" : 2092611,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/SketchDemo\/Deploy\/img\/Hero1\/hero1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/SketchDemo\/Deploy\/img\/Hero1\/work.png" : {
+      "ft" : 32768,
+      "iS" : 23623,
+      "oA" : 0,
+      "oAP" : "\/SketchDemo\/Deploy\/img\/Hero1\/work.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/SketchDemo\/Deploy\/img\/Hero2\/aside.jpg" : {
+      "ft" : 16384,
+      "iS" : 175889,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/SketchDemo\/Deploy\/img\/Hero2\/aside.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/SketchDemo\/Deploy\/img\/Hero2\/hero2.jpg" : {
+      "ft" : 16384,
+      "iS" : 1049493,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/SketchDemo\/Deploy\/img\/Hero2\/hero2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/SketchDemo\/Deploy\/img\/Hero2\/hero3.jpg" : {
+      "ft" : 16384,
+      "iS" : 223311,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/SketchDemo\/Deploy\/img\/Hero2\/hero3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/SketchDemo\/Deploy\/img\/Menu\/Breakfast.jpg" : {
+      "ft" : 16384,
+      "iS" : 164216,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/SketchDemo\/Deploy\/img\/Menu\/Breakfast.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/SketchDemo\/Deploy\/img\/Menu\/Burger.jpg" : {
+      "ft" : 16384,
+      "iS" : 104009,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/SketchDemo\/Deploy\/img\/Menu\/Burger.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/SketchDemo\/Deploy\/img\/Menu\/Fries.jpg" : {
+      "ft" : 16384,
+      "iS" : 151670,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/SketchDemo\/Deploy\/img\/Menu\/Fries.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/SketchDemo\/Deploy\/img\/Menu\/Milkshake.jpg" : {
+      "ft" : 16384,
+      "iS" : 78799,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/SketchDemo\/Deploy\/img\/Menu\/Milkshake.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/SketchDemo\/Deploy\/img\/Menu\/Soda.jpg" : {
+      "ft" : 16384,
+      "iS" : 117673,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/SketchDemo\/Deploy\/img\/Menu\/Soda.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/SketchDemo\/Deploy\/img\/NiftyLogo.jpg" : {
+      "ft" : 16384,
+      "iS" : 14057,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/SketchDemo\/Deploy\/img\/NiftyLogo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/SketchDemo\/Deploy\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/SketchDemo\/Deploy\/index.html",
+      "oF" : 0
+    },
     "\/SketchDemo\/Design\/McLaughlin_DemoDesign.sketch" : {
       "cB" : 0,
       "ft" : 8192,
@@ -485,12 +649,52 @@
       "oAP" : "\/SketchDemo\/Design\/McLaughlin_DemoDesign.sketch",
       "oF" : 0
     },
+    "\/SketchDemo\/Dev\/Content\/Hero1.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/SketchDemo\/Dev\/Content\/Hero1.html",
+      "oF" : 0
+    },
+    "\/SketchDemo\/Dev\/Content\/Hero2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/SketchDemo\/Dev\/Content\/Hero2.html",
+      "oF" : 0
+    },
+    "\/SketchDemo\/Dev\/Content\/Menu.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/SketchDemo\/Dev\/Content\/Menu.html",
+      "oF" : 0
+    },
+    "\/SketchDemo\/Dev\/Global\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/SketchDemo\/Dev\/Global\/footer.html",
+      "oF" : 0
+    },
     "\/SketchDemo\/Dev\/Global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/SketchDemo\/Dev\/Global\/head.html",
+      "oF" : 0
+    },
+    "\/SketchDemo\/Dev\/Global\/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/SketchDemo\/Dev\/Global\/header.html",
       "oF" : 0
     },
     "\/SketchDemo\/Dev\/Global\/scripts.kit" : {
