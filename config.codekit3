@@ -737,22 +737,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/SketchDemo\/Deploy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/SketchDemo\/Deploy\/index.html",
-      "oF" : 0
-    },
-    "\/SketchDemo\/Dev\/Global\/footer.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/SketchDemo\/Dev\/Global\/footer.html",
-      "oF" : 0
     }
   },
   "hooks" : [
