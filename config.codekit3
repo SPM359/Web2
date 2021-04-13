@@ -485,6 +485,22 @@
       "oAP" : "\/SketchDemo\/Design\/McLaughlin_DemoDesign.sketch",
       "oF" : 0
     },
+    "\/SketchDemo\/Dev\/Global\/head.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/SketchDemo\/Dev\/Global\/head.html",
+      "oF" : 0
+    },
+    "\/SketchDemo\/Dev\/Global\/scripts.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/SketchDemo\/Dev\/Global\/scripts.html",
+      "oF" : 0
+    },
     "\/SketchDemo\/Dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
