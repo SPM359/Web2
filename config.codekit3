@@ -484,6 +484,39 @@
       "oA" : 0,
       "oAP" : "\/SketchDemo\/Design\/McLaughlin_DemoDesign.sketch",
       "oF" : 0
+    },
+    "\/SketchDemo\/Dev\/index.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/SketchDemo\/Deploy\/index.html",
+      "oF" : 2
+    },
+    "\/SketchDemo\/Dev\/js\/scripts.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/SketchDemo\/Deploy\/js\/scripts-min.js",
+      "oF" : 2,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/SketchDemo\/Dev\/scss\/styles.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/SketchDemo\/Deploy\/css\/styles.css",
+      "oF" : 2,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     }
   },
   "hooks" : [
