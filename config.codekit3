@@ -710,7 +710,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Deploy\/index.html",
+      "oAP" : "\/HTMLHomework\/Deploy\/index.html",
       "oF" : 2
     },
     "\/HTMLHomework\/Dev\/js\/scripts.js" : {
@@ -719,7 +719,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Deploy\/js\/scripts-min.js",
+      "oAP" : "\/HTMLHomework\/Deploy\/js\/scripts-min.js",
       "oF" : 2,
       "sC" : 3,
       "tS" : 0
@@ -732,19 +732,11 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/SketchDemo\/Deploy\/css\/styles.css",
+      "oAP" : "\/HTMLHomework\/Deploy\/css\/styles.css",
       "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/SketchDemo\/Deploy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/SketchDemo\/Deploy\/index.html",
-      "oF" : 0
     }
   },
   "hooks" : [
