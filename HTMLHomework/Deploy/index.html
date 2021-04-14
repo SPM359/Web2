@@ -14,25 +14,46 @@
 <body>
 
     <header>
+        <img src="img/NiftyLogo.jpg" alt="Nifty Fifty's Logo">
     </header>
+
+    <section>
+        <form action=POST>
+            <input type="text" placeholder="Search our menu">
+            <button><i class="fas fa-search"></i></button>
+        </form>
+    </section>
 
     <section>
         <img src="img/Hero1/hero1.jpg" alt="Diner with glowing neon">
         <article>
-            <h3>Get Delivery with Doordash</h3>
-            <h4>Online Ordering Now Available</h4>
+            <a href="#">
+                <h3>Get Delivery with Doordash</h3>
+                <h4>Online Ordering Now Available</h4>
+                <h4>Details</h4>
+                <i class="fas fa-caret-right"></i>
+            </a>
         </article>
         <article>
-            <h4><span>Location:</span> Philadelphia, PA</h4>
-            <h4><span>Hours:</span> Sun-Thurs 7am-11pm, Fri & Sat 7am-12am</h4>
+                <a href="#">
+                <h4><span>Location:</span> Philadelphia, PA</h4>
+                <h4><span>Hours:</span> Sun-Thurs 7am-11pm, Fri & Sat 7am-12am</h4>
+                <h4>Details</h4>
+                <i class="fas fa-caret-right"></i>
+            </a>
         </article>
+    </section>
+
+    <section>
         <article>
             <h1>Want to Franchise?</h1>
             <img src="img/Hero1/franchise.png" alt="Diner at night">
+            <button>Start Here</button>
         </article>
         <article>
             <h1>Looking for Work?</h1>
             <img src="img/Hero1/work.png" alt="Empty diner booths">
+            <button>Apply Here</button>
         </article>
     </section>
 
@@ -50,57 +71,75 @@
             <img src="img/Menu/Breakfast.jpg" alt="Bacon">
             <h2>Breakfast</h2>
             <p>Breakfast this good hasn’t been seen outside of Mom’s house since the 1950s, when diners still knew how to prepare foods with a taste of home.</p>
+            <button>Read More</button>
         </article>
         <article>
             <img src="img/Menu/Burger.jpg" alt="Burgers">
             <h2>Burgers</h2>
             <p>In the 1950s, local diners were known for the pride they took in each of their dishes. At Nifty Fifty’s, that tradition continues.</p>
+            <button>Read More</button>
         </article>
         <article>
             <img src="img/Menu/Fries.jpg" alt="Fries">
             <h2>Fries</h2>
             <p>At Nifty Fifty’s, we don’t just say we make fresh-cut, homemade french-fries – we prepare them in full view of the restaurant to prove it!</p>
+            <button>Read More</button>
         </article>
         <article>
             <img src="img/Menu/Milkshake.jpg" alt="Milkshake">
             <h2>Milkshakes</h2>
             <p>One taste of our award-winning milkshakes will transport you back to the 1950s, when soda fountains and ice cream shops were the place to be.</p>
+            <button>Read More</button>
         </article>
         <article>
             <img src="img/Menu/Soda.jpg" alt="Soda glasses being filled">
             <h2>Sodas</h2>
             <p>Having the WORLD’S largest soda fountain, with flavors mixed from our homemade syrups, means that the possibilities are endless!</p>
+            <button>Read More</button>
         </article>
     </section>
 
     <footer>
-        <h3>Locations</h3>
-        <article>
-            <h4>Philadelphia</h4>
-                <address>2491 Grant Avenue</address>
-                <address>Philadelphia, PA 19114</address>
-                <address>215-676-1950</address>
-        </article>
-        <article>
-            <h4>Folsom</h4>
-                <address>1900 MacDade Boulevard</address>
-                <address>Folsom, PA 19033</address>
-                <address>610-583-1950</address>
-        </article>
-        <article>
-            <h4>Turnersville</h4>
-                <address>4670 Route 42</address>
-                <address>Turnersville, NJ 08012</address>
-                <address>856-875-1950</address>
-        </article>
-        <h3>Search for Other Locations</h3>
-        <h3>Follow Us</h3>
-        <ul>
-            <li><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
-        </ul>
+        <section>
+            <h3>Locations</h3>
+                <article>
+                    <h4>Philadelphia</h4>
+                    <i class="fas fa-location-arrow"></i>
+                        <address>2491 Grant Avenue<br>Philadelphia, PA 19114</address>
+                        <i class="fas fa-mobile"></i>
+                        <a href="tel:215-676-1950">(215)-676-1950</a>
+                </article>
+                <article>
+                    <h4>Folsom</h4>
+                        <i class="fas fa-location-arrow"></i>
+                        <address>1900 MacDade Boulevard<br>Folsom, PA 19033</address>
+                        <i class="fas fa-mobile"></i>
+                        <a href="tel:610-583-1950">(610)-583-1950</a>
+                </article>
+                <article>
+                    <h4>Turnersville</h4>
+                        <i class="fas fa-location-arrow"></i>
+                        <address>4670 Route 42<br>Turnersville, NJ 08012</address>
+                        <i class="fas fa-mobile"></i>
+                        <a href="tel:856-875-1950">(856)-875-1950</a>
+                </article>
+        </section>
+        <section>
+            <h3>Search for Other Locations</h3>
+                <form action=POST>
+                    <input type="text" placeholder="City, County, Zip Code">
+                    <button><i class="fas fa-search"></i></button>
+                </form>
+        </section>
+        <section>
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+            </ul>
+        </section>
     </footer>
 
     <script src="js/scripts-min.js"></script>
