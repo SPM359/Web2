@@ -641,6 +641,22 @@
       "oAP" : "\/HTMLHomework\/Deploy\/index.html",
       "oF" : 0
     },
+    "\/HTMLHomework\/Design\/McLaughlin_DemoDesign.sketch" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/HTMLHomework\/Design\/McLaughlin_DemoDesign.sketch",
+      "oF" : 0
+    },
+    "\/HTMLHomework\/Dev\/Content\/careers.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/HTMLHomework\/Dev\/Content\/careers.html",
+      "oF" : 0
+    },
     "\/HTMLHomework\/Dev\/Content\/Hero1.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -663,6 +679,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/HTMLHomework\/Dev\/Content\/Menu.html",
+      "oF" : 0
+    },
+    "\/HTMLHomework\/Dev\/Content\/search.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/HTMLHomework\/Dev\/Content\/search.html",
       "oF" : 0
     },
     "\/HTMLHomework\/Dev\/Global\/footer.kit" : {
