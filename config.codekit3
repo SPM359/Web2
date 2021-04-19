@@ -477,6 +477,18 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/HTMLHomework\/Deploy\/css\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/HTMLHomework\/Deploy\/css\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/HTMLHomework\/Deploy\/img\/Hero1\/franchise.png" : {
       "ft" : 32768,
       "iS" : 23513,
@@ -653,16 +665,16 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/HTMLHomework\/Dev\/Content\/careers.html",
       "oF" : 0
     },
-    "\/HTMLHomework\/Dev\/Content\/Hero1.kit" : {
+    "\/HTMLHomework\/Dev\/Content\/hero1.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/HTMLHomework\/Dev\/Content\/Hero1.html",
+      "oAP" : "\/HTMLHomework\/Dev\/Content\/hero1.html",
       "oF" : 0
     },
     "\/HTMLHomework\/Dev\/Content\/Hero2.kit" : {
@@ -673,19 +685,19 @@
       "oAP" : "\/HTMLHomework\/Dev\/Content\/Hero2.html",
       "oF" : 0
     },
-    "\/HTMLHomework\/Dev\/Content\/Menu.kit" : {
+    "\/HTMLHomework\/Dev\/Content\/menu.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/HTMLHomework\/Dev\/Content\/Menu.html",
+      "oAP" : "\/HTMLHomework\/Dev\/Content\/menu.html",
       "oF" : 0
     },
     "\/HTMLHomework\/Dev\/Content\/search.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/HTMLHomework\/Dev\/Content\/search.html",
       "oF" : 0
     },
@@ -739,6 +751,118 @@
       "oF" : 2,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/HTMLHomework\/Dev\/scss\/layout\/_footer.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/HTMLHomework\/Dev\/scss\/layout\/_footer.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/HTMLHomework\/Dev\/scss\/layout\/_header.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/HTMLHomework\/Dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/HTMLHomework\/Dev\/scss\/sections\/_careers.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/HTMLHomework\/Dev\/scss\/sections\/_careers.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/HTMLHomework\/Dev\/scss\/sections\/_hero1.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/HTMLHomework\/Dev\/scss\/sections\/_hero1.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/HTMLHomework\/Dev\/scss\/sections\/_hero2.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/HTMLHomework\/Dev\/scss\/sections\/_hero2.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/HTMLHomework\/Dev\/scss\/sections\/_menu.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/HTMLHomework\/Dev\/scss\/sections\/_menu.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/HTMLHomework\/Dev\/scss\/sections\/_search.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/HTMLHomework\/Dev\/scss\/sections\/_search.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/HTMLHomework\/Dev\/scss\/styles.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/HTMLHomework\/Deploy\/css\/styles.css",
+      "oF" : 2,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     }
   },
   "hooks" : [
