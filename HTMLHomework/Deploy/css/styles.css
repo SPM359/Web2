@@ -1,1 +1,29 @@
+header {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". header .";
+}
+header > div {
+  grid-area: header;
+}
 
+#search {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". search .";
+}
+#search > div {
+  grid-area: search;
+}
+
+#hero1 {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: "image image image" ". boxes .";
+}
+#hero1 > #image {
+  grid-area: image;
+}
+#hero1 > #boxes {
+  grid-area: boxes;
+}

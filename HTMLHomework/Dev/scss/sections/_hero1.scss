@@ -1,0 +1,14 @@
+#hero1{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: "image image image"
+                         ". boxes .";
+
+    >#image{
+        grid-area: image;
+    }
+
+    >#boxes{
+        grid-area: boxes;
+    }
+}
