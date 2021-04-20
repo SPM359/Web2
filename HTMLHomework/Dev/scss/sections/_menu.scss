@@ -1,0 +1,49 @@
+#menu{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". title ."
+                         "image1 image1 image1"
+                         ". breakfast ."
+                         "image2 image2 image2"
+                         ". burgers ."
+                         "image3 image3 image3"
+                         ". fries ."
+                         "image4 image4 image4"
+                         ". milkshakes ."
+                         "image5 image5 image5"
+                         ". sodas .";
+    
+        >#title{
+            grid-area: title;
+        }
+        >#image1{
+            grid-area: image1;
+        }
+        >#breakfast{
+            grid-area: breakfast;
+        }
+        >#image2{
+            grid-area: image2;
+        }
+        >#burgers{
+            grid-area: burgers;
+        }
+        >#image3{
+            grid-area: image3;
+        }
+        >#fries{
+            grid-area: fries;
+        }
+        >#image4{
+            grid-area: image4;
+        }
+        >#milkshakes{
+            grid-area: milkshakes;
+        }
+        >#image5{
+            grid-area: image5;
+        }
+        >#sodas{
+            grid-area: sodas;
+        }
+    }

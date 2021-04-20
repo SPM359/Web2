@@ -1,0 +1,13 @@
+footer{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". locations ."
+                         ". search .";
+
+    >#locations{
+        grid-area: locations;
+    }
+    >#search{
+        grid-area: search;
+    }
+}
