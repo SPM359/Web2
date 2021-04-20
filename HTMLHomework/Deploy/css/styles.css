@@ -10,13 +10,16 @@ header > div {
 footer {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". locations ." ". search .";
+  grid-template-areas: ". locations ." ". search ." ". media .";
 }
 footer > #locations {
   grid-area: locations;
 }
 footer > #search {
   grid-area: search;
+}
+footer > #media {
+  grid-area: media;
 }
 
 #search {
@@ -39,23 +42,24 @@ footer > #search {
 #hero1 > #boxes {
   grid-area: boxes;
 }
+#hero1 img {
+  width: 100%;
+}
 
 #careers {
   display: grid;
-  grid-template-columns: 16px auto auto 16px;
-  grid-template-areas: ". start icon ." ". apply icon2 .";
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". franchise ." ". work .";
 }
-#careers > div > #franchise > #start {
-  grid-area: start;
+#careers > #franchise {
+  grid-area: franchise;
 }
-#careers > div > #franchise > #icon {
-  grid-area: icon;
+#careers > #work {
+  grid-area: work;
 }
-#careers > div > #work > #apply {
-  grid-area: apply;
-}
-#careers > div > #work > #icon2 {
-  grid-area: icon2;
+
+#hero2 img {
+  width: 100%;
 }
 
 #menu {

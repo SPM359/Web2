@@ -1,25 +1,13 @@
 #careers{
     display: grid;
-    grid-template-columns: 16px auto auto 16px;
-    grid-template-areas: ". start icon ."
-                         ". apply icon2 .";
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". franchise ."
+                         ". work .";
 
-    >div{
         >#franchise{
-            >#start{
-                grid-area: start;
-            }
-            >#icon{
-                grid-area: icon;
-            }
+            grid-area: franchise;
         }
         >#work{
-            >#apply{
-                grid-area: apply;
-            }
-            >#icon2{
-                grid-area: icon2;
-            }
+            grid-area: work;
+        }
     }
-}
-}

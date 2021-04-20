@@ -2,12 +2,16 @@ footer{
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". locations ."
-                         ". search .";
+                         ". search ."
+                         ". media .";
 
     >#locations{
         grid-area: locations;
     }
     >#search{
         grid-area: search;
+    }
+    >#media{
+        grid-area: media;
     }
 }

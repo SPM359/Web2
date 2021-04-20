@@ -661,7 +661,15 @@
       "oAP" : "\/HTMLHomework\/Design\/McLaughlin_DemoDesign.sketch",
       "oF" : 0
     },
-    "\/HTMLHomework\/Dev\/content\/careers.kit" : {
+    "\/HTMLHomework\/Dev\/Content\/careers.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/HTMLHomework\/Dev\/Content\/careers.html",
+      "oF" : 0
+    },
+    "\/HTMLHomework\/Dev\/Content\/careers.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
@@ -669,7 +677,7 @@
       "oAP" : "\/HTMLHomework\/Dev\/Content\/careers.html",
       "oF" : 0
     },
-    "\/HTMLHomework\/Dev\/Content\/Hero1.kit" : {
+    "\/HTMLHomework\/Dev\/Content\/hero1.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
@@ -685,7 +693,7 @@
       "oAP" : "\/HTMLHomework\/Dev\/Content\/Hero2.html",
       "oF" : 0
     },
-    "\/HTMLHomework\/Dev\/Content\/Menu.kit" : {
+    "\/HTMLHomework\/Dev\/Content\/menu.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
@@ -693,7 +701,15 @@
       "oAP" : "\/HTMLHomework\/Dev\/Content\/menu.html",
       "oF" : 0
     },
-    "\/HTMLHomework\/Dev\/content\/search.kit" : {
+    "\/HTMLHomework\/Dev\/Content\/search.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/HTMLHomework\/Dev\/Content\/search.html",
+      "oF" : 0
+    },
+    "\/HTMLHomework\/Dev\/Content\/search.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
