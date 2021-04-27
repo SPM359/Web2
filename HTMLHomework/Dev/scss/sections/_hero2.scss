@@ -1,5 +1,12 @@
 #hero2{
+
     img{
         width: 100%;
+    }
+
+    >div{
+        >aside{
+            display: none;
+        }
     }
 }

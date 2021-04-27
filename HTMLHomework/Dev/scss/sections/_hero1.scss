@@ -1,18 +1,20 @@
 #hero1{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: "image image image"
-                         ". boxes .";
-
-    >#image{
-        grid-area: image;
-    }
-
-    >#boxes{
-        grid-area: boxes;
-    }
-
+    
     img{
-        width: 100%;
+        width: 100%
     }
-}
+
+    >ul{
+        li{
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". boxes .";
+            
+            >a{
+            grid-area: boxes;
+            }
+            
+        }
+    }
+
+    }

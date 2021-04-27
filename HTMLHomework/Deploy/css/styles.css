@@ -1,3 +1,16 @@
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
 header {
   display: grid;
   grid-template-columns: 16px auto 16px;
@@ -31,72 +44,40 @@ footer > #media {
   grid-area: search;
 }
 
-#hero1 {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: "image image image" ". boxes .";
-}
-#hero1 > #image {
-  grid-area: image;
-}
-#hero1 > #boxes {
-  grid-area: boxes;
-}
 #hero1 img {
   width: 100%;
 }
-
-#careers {
+#hero1 > ul li {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". franchise ." ". work .";
+  grid-template-areas: ". boxes .";
 }
-#careers > #franchise {
-  grid-area: franchise;
+#hero1 > ul li > a {
+  grid-area: boxes;
 }
-#careers > #work {
-  grid-area: work;
+
+#careers > ul li {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". careers ." div;
+  grid-template-areas-grid-area: careers;
 }
 
 #hero2 img {
   width: 100%;
 }
+#hero2 > div > aside {
+  display: none;
+}
 
-#menu {
+#menu ul li > img {
+  width: 100%;
+}
+#menu ul li > section {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". title ." "image1 image1 image1" ". breakfast ." "image2 image2 image2" ". burgers ." "image3 image3 image3" ". fries ." "image4 image4 image4" ". milkshakes ." "image5 image5 image5" ". sodas .";
+  grid-template-areas: ". menu-item .";
 }
-#menu > #title {
-  grid-area: title;
-}
-#menu > #image1 {
-  grid-area: image1;
-}
-#menu > #breakfast {
-  grid-area: breakfast;
-}
-#menu > #image2 {
-  grid-area: image2;
-}
-#menu > #burgers {
-  grid-area: burgers;
-}
-#menu > #image3 {
-  grid-area: image3;
-}
-#menu > #fries {
-  grid-area: fries;
-}
-#menu > #image4 {
-  grid-area: image4;
-}
-#menu > #milkshakes {
-  grid-area: milkshakes;
-}
-#menu > #image5 {
-  grid-area: image5;
-}
-#menu > #sodas {
-  grid-area: sodas;
+#menu ul li > section > div {
+  grid-area: menu-item;
 }

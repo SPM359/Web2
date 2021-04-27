@@ -1,13 +1,15 @@
 #careers{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". franchise ."
-                         ". work .";
 
-        >#franchise{
-            grid-area: franchise;
+    >ul{
+        li{
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". careers ."
+            
+            div{
+                grid-area: careers;
+            }
         }
-        >#work{
-            grid-area: work;
-        }
+
+    }
     }

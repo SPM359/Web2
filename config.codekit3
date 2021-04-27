@@ -665,9 +665,9 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/HTMLHomework\/Deploy\/careers.html",
-      "oF" : 2
+      "oF" : 3
     },
     "\/HTMLHomework\/Dev\/Content\/hero1.kit" : {
       "cB" : 0,
@@ -697,9 +697,9 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/HTMLHomework\/Deploy\/search.html",
-      "oF" : 2
+      "oF" : 3
     },
     "\/HTMLHomework\/Dev\/Global\/footer.kit" : {
       "cB" : 0,
@@ -751,6 +751,20 @@
       "oF" : 2,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/HTMLHomework\/Dev\/scss\/base\/_base.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/HTMLHomework\/Dev\/scss\/base\/_base.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/HTMLHomework\/Dev\/scss\/layout\/_footer.scss" : {
       "aP" : 0,
