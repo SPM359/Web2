@@ -1,5 +1,29 @@
 #menu{
     ul{
+        display: grid;
+
+        @include tab{
+            grid-template-columns: 50% auto;     
+            grid-template-areas: "li li"
+                                 "li li"
+                                 "li .";
+            gap: 16px;   
+        }
+
+        @include desk{
+            grid-template-columns: repeat(3, 1fr);     
+            grid-template-areas: "li li li"
+                                 "li li .";
+            gap: 16px;   
+        }
+
+        @include hd{
+            grid-template-columns: repeat(3, 1fr);     
+            grid-template-areas: "li li li"
+                                 "li li .";
+            gap: 16px;   
+        }
+
         li{
             >img{
                 width: 100%
@@ -15,5 +39,5 @@
                 }
             }
         }
-    }
+    } 
     }

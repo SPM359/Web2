@@ -25,13 +25,25 @@ footer {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". locations ." ". search ." ". media .";
 }
-footer > #locations {
+@media (min-width: 768px) {
+  footer {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "locations search" "locations media";
+  }
+}
+@media (min-width: 1024px) {
+  footer {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "locations search media";
+  }
+}
+footer #locations {
   grid-area: locations;
 }
-footer > #search {
+footer #search {
   grid-area: search;
 }
-footer > #media {
+footer #media {
   grid-area: media;
 }
 
@@ -149,6 +161,30 @@ footer > #media {
   }
 }
 
+#menu ul {
+  display: grid;
+}
+@media (min-width: 768px) {
+  #menu ul {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "li li" "li li" "li .";
+    gap: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  #menu ul {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "li li li" "li li .";
+    gap: 16px;
+  }
+}
+@media (min-width: 1440px) {
+  #menu ul {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "li li li" "li li .";
+    gap: 16px;
+  }
+}
 #menu ul li > img {
   width: 100%;
 }

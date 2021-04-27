@@ -1,17 +1,31 @@
 footer{
+
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". locations ."
                          ". search ."
                          ". media .";
 
-    >#locations{
+    @include tab{
+        grid-template-columns: 50% auto;
+        grid-template-areas: "locations search"
+                             "locations media";
+    }
+
+    @include desk{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "locations search media"
+    }
+
+    #locations{
         grid-area: locations;
     }
-    >#search{
+
+    #search{
         grid-area: search;
     }
-    >#media{
+
+    #media{
         grid-area: media;
     }
 }
