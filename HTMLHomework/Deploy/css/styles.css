@@ -47,27 +47,106 @@ footer > #media {
 #hero1 img {
   width: 100%;
 }
-#hero1 > ul li {
+@media (min-width: 768px) {
+  #hero1 > ul {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "box1 box2";
+  }
+}
+#hero1 > ul #box1 {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". boxes .";
+  grid-area: box1;
 }
-#hero1 > ul li > a {
+@media (min-width: 1440px) {
+  #hero1 > ul #box1 {
+    grid-template-columns: 230px auto 16px;
+  }
+}
+#hero1 > ul #box1 > a {
+  grid-area: boxes;
+}
+#hero1 > ul #box2 {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". boxes .";
+  grid-area: box2;
+}
+@media (min-width: 1440px) {
+  #hero1 > ul #box2 {
+    grid-template-columns: 16px auto 230px;
+  }
+}
+#hero1 > ul #box2 > a {
   grid-area: boxes;
 }
 
-#careers > ul li {
+@media (min-width: 768px) {
+  #careers > ul {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "franchise work";
+    grid-gap: 16px;
+  }
+}
+#careers > ul #franchise {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". careers ." div;
-  grid-template-areas-grid-area: careers;
+  grid-template-areas: ". careers .";
+  grid-area: franchise;
+}
+#careers > ul #franchise div {
+  grid-area: careers;
+}
+#careers > ul #work {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". careers .";
+  grid-area: work;
+}
+#careers > ul #work div {
+  grid-area: careers;
 }
 
-#hero2 img {
+#hero2 {
+  display: grid;
+}
+#hero2 #diner2 {
+  grid-area: diner2;
   width: 100%;
 }
-#hero2 > div > aside {
+#hero2 #jukebox {
+  grid-area: jukebox;
+  width: 100%;
+}
+#hero2 #stools {
   display: none;
+  grid-area: stools;
+}
+@media (min-width: 1440px) {
+  #hero2 #stools {
+    display: list-item;
+  }
+}
+@media (min-width: 768px) {
+  #hero2 {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "diner2 jukebox";
+  }
+}
+@media (min-width: 1024px) {
+  #hero2 {
+    grid-template-columns: 60% auto;
+    grid-template-areas: "diner2 jukebox";
+  }
+}
+@media (min-width: 1440px) {
+  #hero2 {
+    grid-template-columns: 70% auto;
+    grid-template-areas: "diner2 jukebox" "diner2 stools";
+  }
 }
 
 #menu ul li > img {

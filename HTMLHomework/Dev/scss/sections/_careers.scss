@@ -1,15 +1,32 @@
 #careers{
 
     >ul{
-        li{
+        @include tab{
+            display: grid;
+            grid-template-columns: 50% auto;
+            grid-template-areas: "franchise work";
+            grid-gap: 16px;
+        }
+
+        #franchise{
             display: grid;
             grid-template-columns: 16px auto 16px;
-            grid-template-areas: ". careers ."
+            grid-template-areas: ". careers .";
+            grid-area: franchise;
             
             div{
                 grid-area: careers;
             }
         }
-
+        #work{
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". careers .";
+            grid-area: work;
+            
+            div{
+                grid-area: careers;
+            }
+        }
     }
     }

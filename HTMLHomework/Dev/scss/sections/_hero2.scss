@@ -1,12 +1,36 @@
 #hero2{
 
-    img{
+    display: grid;
+
+    #diner2{
+        grid-area: diner2;
         width: 100%;
     }
-
-    >div{
-        >aside{
-            display: none;
+    #jukebox{
+        grid-area: jukebox;
+        width: 100%;
+    }
+    #stools{
+        display: none;
+        grid-area: stools;
+        @include hd{
+            display: list-item;
         }
+    }
+
+    @include tab{
+        grid-template-columns: 50% auto;
+        grid-template-areas: "diner2 jukebox";
+    }
+
+    @include desk{
+        grid-template-columns: 60% auto;
+        grid-template-areas: "diner2 jukebox";
+    }
+
+    @include hd{
+        grid-template-columns: 70% auto;
+        grid-template-areas: "diner2 jukebox"
+                             "diner2 stools";
     }
 }

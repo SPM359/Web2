@@ -674,7 +674,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/HTMLHomework\/Dev\/Content\/hero1.html",
+      "oAP" : "\/HTMLHomework\/Dev\/Content\/Hero1.html",
       "oF" : 0
     },
     "\/HTMLHomework\/Dev\/Content\/Hero2.kit" : {
@@ -690,7 +690,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/HTMLHomework\/Dev\/Content\/menu.html",
+      "oAP" : "\/HTMLHomework\/Dev\/Content\/Menu.html",
       "oF" : 0
     },
     "\/HTMLHomework\/Dev\/Content\/search.kit" : {
@@ -761,6 +761,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/HTMLHomework\/Dev\/scss\/base\/_base.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/HTMLHomework\/Dev\/scss\/helpers\/_mixins.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/HTMLHomework\/Dev\/scss\/helpers\/_mixins.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

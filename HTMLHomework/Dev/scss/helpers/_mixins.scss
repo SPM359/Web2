@@ -1,0 +1,23 @@
+@mixin mob{
+    @media (min-width: 320px){
+        @content;
+    }
+}
+
+@mixin tab {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin desk {
+    @media (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin hd {
+    @media (min-width: 1440px) {
+        @content;
+    }
+}
