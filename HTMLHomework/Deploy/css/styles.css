@@ -91,7 +91,6 @@ footer #media {
 }
 
 #hero1 {
-  background-image: url("../img/Hero1/hero1.jpg");
   background-position: center;
   background-size: cover;
   height: 252px;
@@ -114,6 +113,7 @@ footer #media {
 }
 #hero1 img {
   width: 100%;
+  background-image: url("../img/Hero1/hero1.jpg");
 }
 @media (min-width: 768px) {
   #hero1 ul {
@@ -245,7 +245,7 @@ footer #media {
 }
 #hero2 #stools {
   display: none;
-  background-image: url("Deploy/img/Hero2/aside.jpg");
+  background-image: url("..img/Hero2/aside.jpg");
 }
 @media (min-width: 1440px) {
   #hero2 #stools {
