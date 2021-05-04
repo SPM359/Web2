@@ -2,8 +2,24 @@
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". search .";
+    background-color: $indigoLight;
+
+    @include hd{
+        grid-template-columns: auto 1200px auto;
+    }
 
     >div{
         grid-area: search;
+
+        form{
+            color: $goldenDark;
+            
+            button{
+                background-color: $red;
+                i{
+                    color: $tanLight;
+                }
+            }
+        }
     }
 }

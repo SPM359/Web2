@@ -1,4 +1,6 @@
 #hero1{
+
+    color: $tealDark;
     
     img{
         width: 100%
@@ -34,10 +36,11 @@
         
         #box1{
             grid-area: box1;
-            
+            background-color: $redDark;
         }
         #box2{
             grid-area: box2;
+            background-color: $red;
 
             @include hd{
                 grid-template-columns: 16px 480px auto;

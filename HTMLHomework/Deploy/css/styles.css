@@ -15,6 +15,7 @@ header {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". header .";
+  background-color: #141719;
 }
 header > div {
   grid-area: header;
@@ -24,6 +25,8 @@ footer {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
+  color: #FFFAF3;
+  background-color: #141719;
 }
 @media (min-width: 1440px) {
   footer {
@@ -49,8 +52,15 @@ footer > div {
 footer #locations {
   grid-area: locations;
 }
+footer #locations li i {
+  color: #DD2D4A;
+}
 footer #search {
   grid-area: search;
+  background: #141719;
+}
+footer #search > div > form > button {
+  background-color: #DD2D4A;
 }
 footer #media {
   grid-area: media;
@@ -60,11 +70,29 @@ footer #media {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". search .";
+  background-color: #EAEAFE;
+}
+@media (min-width: 1440px) {
+  #search {
+    grid-template-columns: auto 1200px auto;
+  }
 }
 #search > div {
   grid-area: search;
 }
+#search > div form {
+  color: #8E7857;
+}
+#search > div form button {
+  background-color: #DD2D4A;
+}
+#search > div form button i {
+  color: #FFFAF3;
+}
 
+#hero1 {
+  color: #141719;
+}
 #hero1 img {
   width: 100%;
 }
@@ -97,9 +125,11 @@ footer #media {
 }
 #hero1 #box1 {
   grid-area: box1;
+  background-color: #A02035;
 }
 #hero1 #box2 {
   grid-area: box2;
+  background-color: #DD2D4A;
 }
 @media (min-width: 1440px) {
   #hero1 #box2 {
@@ -112,6 +142,7 @@ footer #media {
     grid-template-columns: auto 1000px auto;
     grid-template-areas: ". careers .";
     gap: 16px;
+    color: #141719;
   }
 }
 #careers ul {
@@ -134,6 +165,11 @@ footer #media {
 }
 #careers ul li div {
   grid-area: careers;
+  background-color: #AFAFD5;
+}
+#careers ul li div button {
+  background-color: #DD2D4A;
+  color: #FFFAF3;
 }
 #careers ul #franchise {
   grid-area: franchise;
@@ -195,6 +231,9 @@ footer #media {
   }
 }
 
+#menu {
+  color: #141719;
+}
 @media (min-width: 768px) {
   #menu {
     display: grid;
@@ -210,8 +249,9 @@ footer #media {
 #menu > div {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". menutitle .";
-  grid-area: menutitle;
+  grid-template-areas: ". menuTitle .";
+  grid-area: menuTitle;
+  color: #8E7857;
 }
 #menu ul {
   display: grid;
@@ -231,6 +271,9 @@ footer #media {
     gap: 16px;
   }
 }
+#menu ul li {
+  background-color: #E1DAD0;
+}
 #menu ul li > img {
   width: 100%;
 }
@@ -241,6 +284,10 @@ footer #media {
 }
 #menu ul li > section > div {
   grid-area: menu-item;
+}
+#menu ul li > section > div > button {
+  background-color: #DD2D4A;
+  color: #FFFAF3;
 }
 @media (min-width: 768px) {
   #menu ul #n1 {

@@ -1,5 +1,7 @@
 #menu{
 
+    color: $tealDark;
+
     @include tab{
         display: grid;
         grid-template-columns: 16px auto 16px;
@@ -13,8 +15,9 @@
     >div{
         display: grid;
         grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". menutitle .";
-        grid-area: menutitle;
+        grid-template-areas: ". menuTitle .";
+        grid-area: menuTitle;
+        color: $goldenDark;
     }
 
     ul{
@@ -41,6 +44,8 @@
                 width: 100%
             }
 
+            background-color: $tanDark;
+
             >section{
                 display: grid;
                 grid-template-columns: 16px auto 16px;
@@ -48,6 +53,11 @@
                 
                 >div{
                     grid-area: menu-item;
+
+                    >button{
+                        background-color: $red;
+                        color: $tanLight;
+                    }
                 }
             }
         }

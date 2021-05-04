@@ -3,6 +3,8 @@ footer{
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". footer .";
+    color: $tanLight;
+    background-color: $tealDark;
 
     @include hd{
         grid-template-columns: auto 1200px auto;
@@ -26,10 +28,26 @@ footer{
 
     #locations{
         grid-area: locations;
+
+        li{
+            i{
+                color: $red;
+            }
+        }
     }
 
     #search{
         grid-area: search;
+        background: $tealDark;
+
+        >div{
+            >form{
+
+                >button{
+                    background-color: $red;
+                }
+            }
+        }
     }
 
     #media{

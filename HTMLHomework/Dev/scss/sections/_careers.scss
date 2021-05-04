@@ -4,9 +4,10 @@
         grid-template-columns: auto 1000px auto;
         grid-template-areas: ". careers .";
         gap: 16px;
+        color: $tealDark;
     }
 
-    ul{
+    ul{ 
         display: grid;
         grid-template-columns: 100%;
         grid-template-areas: "franchise"
@@ -26,6 +27,12 @@
 
             div{
                 grid-area: careers;
+                background-color: $indigo;
+
+                button{
+                    background-color: $red;
+                    color: $tanLight;
+                }
             }
         };
 
