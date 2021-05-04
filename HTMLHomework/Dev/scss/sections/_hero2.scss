@@ -32,15 +32,18 @@
         }
         
         li{
-            width: 100%;
+            background-size: cover;
+            background-position: center;
         }
     }
 
     #diner2{
         grid-area: diner2;
+        background-image: url("Deploy/img/Hero2/hero2.jpg");
     }
     #jukebox{
         grid-area: jukebox;
+        background-image: url("Deploy/img/Hero2/hero3.jpg");
     }
     #stools{
         display: none;
@@ -48,5 +51,6 @@
             display: list-item;
             grid-area: stools;
         }
+        background-image: url("Deploy/img/Hero2/aside.jpg");
     }
 }

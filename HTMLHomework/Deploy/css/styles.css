@@ -91,7 +91,26 @@ footer #media {
 }
 
 #hero1 {
+  background-image: url("Delpoy/img/Hero1/hero1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 252px;
   color: #141719;
+}
+@media (min-width: 768px) {
+  #hero1 {
+    height: 423px;
+  }
+}
+@media (min-width: 1024px) {
+  #hero1 {
+    height: 560px;
+  }
+}
+@media (min-width: 1440px) {
+  #hero1 {
+    height: 875px;
+  }
 }
 #hero1 img {
   width: 100%;
@@ -213,16 +232,20 @@ footer #media {
   }
 }
 #hero2 ul li {
-  width: 100%;
+  background-size: cover;
+  background-position: center;
 }
 #hero2 #diner2 {
   grid-area: diner2;
+  background-image: url("Deploy/img/Hero2/hero2.jpg");
 }
 #hero2 #jukebox {
   grid-area: jukebox;
+  background-image: url("Deploy/img/Hero2/hero3.jpg");
 }
 #hero2 #stools {
   display: none;
+  background-image: url("Deploy/img/Hero2/aside.jpg");
 }
 @media (min-width: 1440px) {
   #hero2 #stools {
