@@ -1,26 +1,38 @@
 #menu{
+
+    @include tab{
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". menu .";
+    }
+
+    @include hd{
+        grid-template-columns: auto 1200px auto;
+    }
+
+    >div{
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". menutitle .";
+        grid-area: menutitle;
+    }
+
     ul{
         display: grid;
+        grid-area: menu;
 
         @include tab{
-            grid-template-columns: 50% auto;     
-            grid-template-areas: "li li"
-                                 "li li"
-                                 "li .";
+            grid-template-columns: repeat(4, 1fr);     
+            grid-template-areas: "n1 n1 n2 n2"
+                                 "n3 n3 n4 n4"
+                                 ". n5 n5 .";
             gap: 16px;   
         }
 
         @include desk{
-            grid-template-columns: repeat(3, 1fr);     
-            grid-template-areas: "li li li"
-                                 "li li .";
-            gap: 16px;   
-        }
-
-        @include hd{
-            grid-template-columns: repeat(3, 1fr);     
-            grid-template-areas: "li li li"
-                                 "li li .";
+            grid-template-columns: repeat(6, 1fr);     
+            grid-template-areas: "n1 n1 n2 n2 n3 n3"
+                                 ". n4 n4 n5 n5 .";
             gap: 16px;   
         }
 
@@ -37,6 +49,36 @@
                 >div{
                     grid-area: menu-item;
                 }
+            }
+        }
+
+        #n1{
+            @include tab{
+                grid-area: n1;
+            }
+        }
+
+        #n2{
+            @include tab{
+                grid-area: n2;
+            }
+        }
+
+        #n3{
+            @include tab{
+                grid-area: n3;
+            }
+        }
+
+        #n4{
+            @include tab{
+                grid-area: n4;
+            }
+        }
+
+        #n5{
+            @include tab{
+                grid-area: n5;
             }
         }
     } 

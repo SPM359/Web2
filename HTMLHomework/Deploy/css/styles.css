@@ -23,16 +23,25 @@ header > div {
 footer {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". locations ." ". search ." ". media .";
+  grid-template-areas: ". footer .";
+}
+@media (min-width: 1440px) {
+  footer {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+footer > div {
+  grid-area: footer;
 }
 @media (min-width: 768px) {
-  footer {
+  footer > div {
+    display: grid;
     grid-template-columns: 50% auto;
     grid-template-areas: "locations search" "locations media";
   }
 }
 @media (min-width: 1024px) {
-  footer {
+  footer > div {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "locations search media";
   }
@@ -60,128 +69,165 @@ footer #media {
   width: 100%;
 }
 @media (min-width: 768px) {
-  #hero1 > ul {
+  #hero1 ul {
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-template-areas: "box1 box2";
+  }
+}
+@media (min-width: 1024px) {
+  #hero1 ul {
     display: grid;
     grid-template-columns: 50% auto;
     grid-template-areas: "box1 box2";
   }
 }
-#hero1 > ul #box1 {
+#hero1 ul li {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". boxes .";
-  grid-area: box1;
 }
 @media (min-width: 1440px) {
-  #hero1 > ul #box1 {
-    grid-template-columns: 230px auto 16px;
+  #hero1 ul li {
+    grid-template-columns: auto 480px 16px;
   }
 }
-#hero1 > ul #box1 > a {
+#hero1 ul li a {
   grid-area: boxes;
 }
-#hero1 > ul #box2 {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". boxes .";
+#hero1 #box1 {
+  grid-area: box1;
+}
+#hero1 #box2 {
   grid-area: box2;
 }
 @media (min-width: 1440px) {
-  #hero1 > ul #box2 {
-    grid-template-columns: 16px auto 230px;
+  #hero1 #box2 {
+    grid-template-columns: 16px 480px auto;
   }
 }
-#hero1 > ul #box2 > a {
-  grid-area: boxes;
-}
 
+@media (min-width: 1440px) {
+  #careers {
+    grid-template-columns: auto 1000px auto;
+    grid-template-areas: ". careers .";
+    gap: 16px;
+  }
+}
+#careers ul {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas: "franchise" "work";
+  gap: 16px;
+}
 @media (min-width: 768px) {
-  #careers > ul {
-    display: grid;
+  #careers ul {
     grid-template-columns: 50% auto;
     grid-template-areas: "franchise work";
-    grid-gap: 16px;
+    gap: 16px;
   }
 }
-#careers > ul #franchise {
+#careers ul li {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". careers .";
+}
+#careers ul li div {
+  grid-area: careers;
+}
+#careers ul #franchise {
   grid-area: franchise;
 }
-#careers > ul #franchise div {
-  grid-area: careers;
-}
-#careers > ul #work {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". careers .";
+#careers ul #work {
   grid-area: work;
 }
-#careers > ul #work div {
-  grid-area: careers;
-}
 
-#hero2 {
-  display: grid;
-}
-#hero2 #diner2 {
-  grid-area: diner2;
-  width: 100%;
-}
-#hero2 #jukebox {
-  grid-area: jukebox;
-  width: 100%;
-}
-#hero2 #stools {
-  display: none;
-  grid-area: stools;
-}
-@media (min-width: 1440px) {
-  #hero2 #stools {
-    display: list-item;
+@media (min-width: 1024px) {
+  #hero2 {
+    display: grid;
+    grid-template-columns: auto 990px auto;
+    grid-template-areas: ". hero2 .";
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1440px) {
   #hero2 {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#hero2 ul {
+  display: grid;
+  grid-area: hero2;
+}
+@media (min-width: 768px) {
+  #hero2 ul {
     grid-template-columns: 50% auto;
     grid-template-areas: "diner2 jukebox";
   }
 }
 @media (min-width: 1024px) {
-  #hero2 {
+  #hero2 ul {
     grid-template-columns: 60% auto;
     grid-template-areas: "diner2 jukebox";
   }
 }
 @media (min-width: 1440px) {
-  #hero2 {
+  #hero2 ul {
     grid-template-columns: 70% auto;
     grid-template-areas: "diner2 jukebox" "diner2 stools";
   }
 }
+#hero2 ul li {
+  width: 100%;
+}
+#hero2 #diner2 {
+  grid-area: diner2;
+}
+#hero2 #jukebox {
+  grid-area: jukebox;
+}
+#hero2 #stools {
+  display: none;
+}
+@media (min-width: 1440px) {
+  #hero2 #stools {
+    display: list-item;
+    grid-area: stools;
+  }
+}
 
+@media (min-width: 768px) {
+  #menu {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". menu .";
+  }
+}
+@media (min-width: 1440px) {
+  #menu {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#menu > div {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". menutitle .";
+  grid-area: menutitle;
+}
 #menu ul {
   display: grid;
+  grid-area: menu;
 }
 @media (min-width: 768px) {
   #menu ul {
-    grid-template-columns: 50% auto;
-    grid-template-areas: "li li" "li li" "li .";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "n1 n1 n2 n2" "n3 n3 n4 n4" ". n5 n5 .";
     gap: 16px;
   }
 }
 @media (min-width: 1024px) {
   #menu ul {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "li li li" "li li .";
-    gap: 16px;
-  }
-}
-@media (min-width: 1440px) {
-  #menu ul {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "li li li" "li li .";
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "n1 n1 n2 n2 n3 n3" ". n4 n4 n5 n5 .";
     gap: 16px;
   }
 }
@@ -195,4 +241,29 @@ footer #media {
 }
 #menu ul li > section > div {
   grid-area: menu-item;
+}
+@media (min-width: 768px) {
+  #menu ul #n1 {
+    grid-area: n1;
+  }
+}
+@media (min-width: 768px) {
+  #menu ul #n2 {
+    grid-area: n2;
+  }
+}
+@media (min-width: 768px) {
+  #menu ul #n3 {
+    grid-area: n3;
+  }
+}
+@media (min-width: 768px) {
+  #menu ul #n4 {
+    grid-area: n4;
+  }
+}
+@media (min-width: 768px) {
+  #menu ul #n5 {
+    grid-area: n5;
+  }
 }

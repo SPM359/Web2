@@ -1,32 +1,40 @@
 #careers{
 
-    >ul{
+    @include hd{
+        grid-template-columns: auto 1000px auto;
+        grid-template-areas: ". careers .";
+        gap: 16px;
+    }
+
+    ul{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: "franchise"
+                             "work";
+        gap: 16px;
+
         @include tab{
-            display: grid;
             grid-template-columns: 50% auto;
             grid-template-areas: "franchise work";
-            grid-gap: 16px;
+            gap: 16px;
         }
 
+        li{
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". careers .";
+
+            div{
+                grid-area: careers;
+            }
+        };
+
         #franchise{
-            display: grid;
-            grid-template-columns: 16px auto 16px;
-            grid-template-areas: ". careers .";
             grid-area: franchise;
-            
-            div{
-                grid-area: careers;
-            }
         }
+
         #work{
-            display: grid;
-            grid-template-columns: 16px auto 16px;
-            grid-template-areas: ". careers .";
             grid-area: work;
-            
-            div{
-                grid-area: careers;
-            }
         }
     }
     }

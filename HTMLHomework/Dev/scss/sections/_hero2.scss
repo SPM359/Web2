@@ -1,36 +1,52 @@
 #hero2{
 
-    display: grid;
+    @include desk{
+        display: grid;
+        grid-template-columns: auto 990px auto;
+        grid-template-areas: ". hero2 .";
+    }
 
-    #diner2{
-        grid-area: diner2;
-        width: 100%;
+   
+    @include hd{
+        grid-template-columns: auto 1200px auto;
     }
-    #jukebox{
-        grid-area: jukebox;
-        width: 100%;
-    }
-    #stools{
-        display: none;
-        grid-area: stools;
+
+    ul{
+        display: grid;
+        grid-area: hero2;
+        
+        @include tab{
+            grid-template-columns: 50% auto;
+            grid-template-areas: "diner2 jukebox";
+        }
+    
+        @include desk{
+            grid-template-columns: 60% auto;
+            grid-template-areas: "diner2 jukebox";
+        }
+    
         @include hd{
-            display: list-item;
+            grid-template-columns: 70% auto;
+            grid-template-areas: "diner2 jukebox"
+                                 "diner2 stools";
+        }
+        
+        li{
+            width: 100%;
         }
     }
 
-    @include tab{
-        grid-template-columns: 50% auto;
-        grid-template-areas: "diner2 jukebox";
+    #diner2{
+        grid-area: diner2;
     }
-
-    @include desk{
-        grid-template-columns: 60% auto;
-        grid-template-areas: "diner2 jukebox";
+    #jukebox{
+        grid-area: jukebox;
     }
-
-    @include hd{
-        grid-template-columns: 70% auto;
-        grid-template-areas: "diner2 jukebox"
-                             "diner2 stools";
+    #stools{
+        display: none;
+        @include hd{
+            display: list-item;
+            grid-area: stools;
+        }
     }
 }

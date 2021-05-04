@@ -4,40 +4,44 @@
         width: 100%
     }
 
-    >ul{
+    ul{
         @include tab{
             display: grid;
-            grid-template-columns: 50% auto;
+            grid-template-columns: 40% auto;
             grid-template-areas: "box1 box2";
         }
-        #box1{
-            display: grid;
-            grid-template-columns: 16px auto 16px;
-            grid-template-areas: ". boxes .";
-            grid-area: box1;
 
-            @include hd{
-                grid-template-columns: 230px auto 16px;
-            }
-            
-            >a{
-            grid-area: boxes;
+        @include desk{
+                display: grid; 
+                grid-template-columns: 50% auto;
+                grid-template-areas: "box1 box2";
+        }
+
+            li{
+                display: grid;
+                grid-template-columns: 16px auto 16px;
+                grid-template-areas: ". boxes .";
+
+                @include hd{
+                    grid-template-columns: auto 480px 16px;
+                }
+
+                a{
+                    grid-area: boxes;
+                }
             }
         }
+        
+        #box1{
+            grid-area: box1;
+            
+        }
         #box2{
-            display: grid;
-            grid-template-columns: 16px auto 16px;
-            grid-template-areas: ". boxes .";
             grid-area: box2;
 
             @include hd{
-                grid-template-columns: 16px auto 230px;
+                grid-template-columns: 16px 480px auto;
             }
-            
-            >a{
-            grid-area: boxes;
-            } 
-        }
     }
 
     }
