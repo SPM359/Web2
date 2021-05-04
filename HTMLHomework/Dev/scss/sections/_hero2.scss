@@ -14,10 +14,12 @@
     ul{
         display: grid;
         grid-area: hero2;
+        grid-template-rows: 360px 486px;
         
         @include tab{
             grid-template-columns: 50% auto;
             grid-template-areas: "diner2 jukebox";
+            grid-template-rows: 625px;
         }
     
         @include desk{
@@ -29,6 +31,7 @@
             grid-template-columns: 70% auto;
             grid-template-areas: "diner2 jukebox"
                                  "diner2 stools";
+            grid-template-rows: repeat(2 377px);
         }
         
         li{

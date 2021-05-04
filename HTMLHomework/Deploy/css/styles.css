@@ -91,29 +91,11 @@ footer #media {
 }
 
 #hero1 {
-  background-position: center;
-  background-size: cover;
-  height: 252px;
   color: #141719;
 }
-@media (min-width: 768px) {
-  #hero1 {
-    height: 423px;
-  }
-}
-@media (min-width: 1024px) {
-  #hero1 {
-    height: 560px;
-  }
-}
-@media (min-width: 1440px) {
-  #hero1 {
-    height: 875px;
-  }
-}
 #hero1 img {
+  object-fit: cover;
   width: 100%;
-  background-image: url("../img/Hero1/hero1.jpg");
 }
 @media (min-width: 768px) {
   #hero1 ul {
@@ -182,11 +164,24 @@ footer #media {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". careers .";
 }
-#careers ul li div {
+#careers ul li > div {
   grid-area: careers;
   background-color: #AFAFD5;
 }
-#careers ul li div button {
+#careers ul li > div > div {
+  background-position: center;
+  border: 4px #FFFAF3 solid;
+  height: 85px;
+  width: 85px;
+  border-radius: 100%;
+}
+#careers ul li > div #icon-left {
+  background-image: url("../img/Hero1/franchise.png");
+}
+#careers ul li > div #icon-right {
+  background-image: url("../img/Hero1/work.png");
+}
+#careers ul li > div button {
   background-color: #DD2D4A;
   color: #FFFAF3;
 }
@@ -212,11 +207,13 @@ footer #media {
 #hero2 ul {
   display: grid;
   grid-area: hero2;
+  grid-template-rows: 360px 486px;
 }
 @media (min-width: 768px) {
   #hero2 ul {
     grid-template-columns: 50% auto;
     grid-template-areas: "diner2 jukebox";
+    grid-template-rows: 625px;
   }
 }
 @media (min-width: 1024px) {
@@ -229,6 +226,7 @@ footer #media {
   #hero2 ul {
     grid-template-columns: 70% auto;
     grid-template-areas: "diner2 jukebox" "diner2 stools";
+    grid-template-rows: repeat(2 377px);
   }
 }
 #hero2 ul li {

@@ -1,25 +1,10 @@
 #hero1{
 
-    background-position: center;
-    background-size: cover;
-    height: 252px;
     color: $tealDark;
-
-    @include tab{
-        height: 423px;
-    }
-
-    @include desk{
-        height: 560px;
-    }
-
-    @include hd{
-        height: 875px;
-    }
     
     img{
+        object-fit: cover;
         width: 100%;
-        background-image: url("../img/Hero1/hero1.jpg");
     }
 
     ul{

@@ -1,6 +1,6 @@
 #careers{
 
-    @include hd{
+    @include hd{ 
         grid-template-columns: auto 1000px auto;
         grid-template-areas: ". careers .";
         gap: 16px;
@@ -25,9 +25,25 @@
             grid-template-columns: 16px auto 16px;
             grid-template-areas: ". careers .";
 
-            div{
+            >div{
                 grid-area: careers;
                 background-color: $indigo;
+
+                >div{
+                    background-position: center;
+                    border: 4px $tanLight solid;
+                    height: 85px;
+                    width: 85px;
+                    border-radius: 100%;
+                }
+
+                #icon-left{
+                    background-image: url("../img/Hero1/franchise.png");
+                }
+
+                #icon-right{
+                    background-image: url("../img/Hero1/work.png");
+                }
 
                 button{
                     background-color: $red;
