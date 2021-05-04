@@ -91,7 +91,7 @@ footer #media {
 }
 
 #hero1 {
-  background-image: url("Delpoy/img/Hero1/hero1.jpg");
+  background-image: url("../img/Hero1/hero1.jpg");
   background-position: center;
   background-size: cover;
   height: 252px;
@@ -237,11 +237,11 @@ footer #media {
 }
 #hero2 #diner2 {
   grid-area: diner2;
-  background-image: url("Deploy/img/Hero2/hero2.jpg");
+  background-image: url("../img/Hero2/hero2.jpg");
 }
 #hero2 #jukebox {
   grid-area: jukebox;
-  background-image: url("Deploy/img/Hero2/hero3.jpg");
+  background-image: url("../img/Hero2/hero3.jpg");
 }
 #hero2 #stools {
   display: none;
