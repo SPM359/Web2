@@ -74,19 +74,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/HTMLHomework\/Assets\/Images\/Compressed\/Diner3.jpg" : {
-      "ft" : 16384,
-      "iS" : 329455,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Diner3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/HTMLHomework\/Assets\/Images\/Compressed\/Fries.jpg" : {
       "ft" : 16384,
       "iS" : 149890,
@@ -504,7 +491,7 @@
     },
     "\/HTMLHomework\/Deploy\/img\/Hero1\/hero1.jpg" : {
       "ft" : 16384,
-      "iS" : 2092611,
+      "iS" : 329455,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/HTMLHomework\/Deploy\/img\/Hero1\/hero1.jpg",

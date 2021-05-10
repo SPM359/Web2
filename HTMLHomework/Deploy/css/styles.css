@@ -74,7 +74,7 @@ footer #media {
 }
 @media (min-width: 1440px) {
   #search {
-    grid-template-columns: auto 1200px auto;
+    grid-template-columns: auto 1000px auto;
   }
 }
 #search > div {
