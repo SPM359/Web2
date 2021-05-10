@@ -1,28 +1,30 @@
 #menu{
 
-    color: $tealDark;
-
     @include tab{
         display: grid;
         grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". menu .";
+        grid-template-areas: ". menuTitle ."
+                             ". menu .";
     }
 
     @include hd{
-        grid-template-columns: auto 1200px auto;
+        grid-template-columns: auto 1000px auto;
     }
 
-    >div{
+    #menu-title{
         display: grid;
-        grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". menuTitle .";
         grid-area: menuTitle;
         color: $goldenDark;
     }
 
-    ul{
+    #menu-items{
         display: grid;
         grid-area: menu;
+        color: $tealDark;
+    }
+
+    ul{
+        display: grid;
 
         @include tab{
             grid-template-columns: repeat(4, 1fr);     
@@ -36,7 +38,6 @@
             grid-template-columns: repeat(6, 1fr);     
             grid-template-areas: "n1 n1 n2 n2 n3 n3"
                                  ". n4 n4 n5 n5 .";
-            gap: 16px;   
         }
 
         li{
@@ -91,5 +92,5 @@
                 grid-area: n5;
             }
         }
-    } 
     }
+}

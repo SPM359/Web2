@@ -1,48 +1,57 @@
 #careers{
 
+    color: $tealDark;
+
+    @include tab{
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". careers .";
+    }
+
     @include hd{ 
         grid-template-columns: auto 1000px auto;
-        grid-template-areas: ". careers .";
-        gap: 16px;
-        color: $tealDark;
     }
 
     ul{ 
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-areas: "franchise"
-                             "work";
+        display: grid; 
         gap: 16px;
 
         @include tab{
             grid-template-columns: 50% auto;
-            grid-template-areas: "franchise work";
-            gap: 16px;
+            grid-area: careers;
+            gap: 24px;
+
         }
 
         li{
             display: grid;
             grid-template-columns: 16px auto 16px;
-            grid-template-areas: ". careers .";
+            grid-template-areas: ". careers-content .";
+            background-color: $indigo;
 
             >div{
-                grid-area: careers;
-                background-color: $indigo;
+                grid-area: careers-content;
 
                 >div{
-                    background-position: center;
+                    background-position: top;
+                    background-size: cover;
                     border: 4px $tanLight solid;
                     height: 85px;
                     width: 85px;
                     border-radius: 100%;
+
+                    @include tab{
+                        height: 113px;
+                        width: 113px;
+                    }
                 }
 
                 #icon-left{
-                    background-image: url("../img/Hero1/franchise.png");
+                    background-image: url("../img/Hero1/franchise.jpg");
                 }
 
                 #icon-right{
-                    background-image: url("../img/Hero1/work.png");
+                    background-image: url("../img/Hero1/work.jpg");
                 }
 
                 button{
@@ -51,13 +60,5 @@
                 }
             }
         };
-
-        #franchise{
-            grid-area: franchise;
-        }
-
-        #work{
-            grid-area: work;
-        }
     }
     }

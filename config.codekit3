@@ -9,64 +9,12 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
-    "\/HTMLHomework\/Assets\/Images\/Compressed\/Booths.jpg" : {
-      "ft" : 16384,
-      "iS" : 18675,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Booths.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/HTMLHomework\/Assets\/Images\/Compressed\/Breakfast.jpg" : {
-      "ft" : 16384,
-      "iS" : 91290,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Breakfast.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/HTMLHomework\/Assets\/Images\/Compressed\/Burger.jpg" : {
       "ft" : 16384,
       "iS" : 72215,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Burger.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/HTMLHomework\/Assets\/Images\/Compressed\/Diner1.jpg" : {
-      "ft" : 16384,
-      "iS" : 295418,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Diner1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/HTMLHomework\/Assets\/Images\/Compressed\/Diner2.jpg" : {
-      "ft" : 16384,
-      "iS" : 14289,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Diner2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -87,19 +35,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/HTMLHomework\/Assets\/Images\/Compressed\/Jukebox.jpg" : {
-      "ft" : 16384,
-      "iS" : 133174,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Jukebox.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/HTMLHomework\/Assets\/Images\/Compressed\/Milkshake.jpg" : {
       "ft" : 16384,
       "iS" : 81151,
@@ -113,38 +48,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/HTMLHomework\/Assets\/Images\/Compressed\/NiftyLogo.png" : {
-      "ft" : 32768,
-      "iS" : 50159,
-      "oA" : 0,
-      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/NiftyLogo.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/HTMLHomework\/Assets\/Images\/Compressed\/Soda.jpg" : {
       "ft" : 16384,
       "iS" : 107109,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Soda.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/HTMLHomework\/Assets\/Images\/Compressed\/Stools.jpg" : {
-      "ft" : 16384,
-      "iS" : 33938,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/HTMLHomework\/Assets\/Images\/Compressed\/Stools.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -476,6 +385,19 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/HTMLHomework\/Deploy\/img\/Hero1\/franchise.jpg" : {
+      "ft" : 16384,
+      "iS" : 14289,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/HTMLHomework\/Deploy\/img\/Hero1\/franchise.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/HTMLHomework\/Deploy\/img\/Hero1\/franchise.png" : {
       "ft" : 32768,
       "iS" : 23513,
@@ -502,6 +424,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/HTMLHomework\/Deploy\/img\/Hero1\/work.jpg" : {
+      "ft" : 16384,
+      "iS" : 18675,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/HTMLHomework\/Deploy\/img\/Hero1\/work.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/HTMLHomework\/Deploy\/img\/Hero1\/work.png" : {
       "ft" : 32768,
       "iS" : 23623,
@@ -517,7 +452,7 @@
     },
     "\/HTMLHomework\/Deploy\/img\/Hero2\/aside.jpg" : {
       "ft" : 16384,
-      "iS" : 175889,
+      "iS" : 33938,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/HTMLHomework\/Deploy\/img\/Hero2\/aside.jpg",
@@ -530,7 +465,7 @@
     },
     "\/HTMLHomework\/Deploy\/img\/Hero2\/hero2.jpg" : {
       "ft" : 16384,
-      "iS" : 1049493,
+      "iS" : 295418,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/HTMLHomework\/Deploy\/img\/Hero2\/hero2.jpg",
@@ -543,10 +478,23 @@
     },
     "\/HTMLHomework\/Deploy\/img\/Hero2\/hero3.jpg" : {
       "ft" : 16384,
-      "iS" : 223311,
+      "iS" : 133174,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/HTMLHomework\/Deploy\/img\/Hero2\/hero3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/HTMLHomework\/Deploy\/img\/Menu\/Breakfast copy.jpg" : {
+      "ft" : 16384,
+      "iS" : 91290,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/HTMLHomework\/Deploy\/img\/Menu\/Breakfast copy.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -628,6 +576,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/HTMLHomework\/Deploy\/img\/NiftyLogo.png" : {
+      "ft" : 32768,
+      "iS" : 50159,
+      "oA" : 0,
+      "oAP" : "\/HTMLHomework\/Deploy\/img\/NiftyLogo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

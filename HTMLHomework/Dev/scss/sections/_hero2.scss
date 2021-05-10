@@ -2,36 +2,36 @@
 
     @include desk{
         display: grid;
-        grid-template-columns: auto 990px auto;
+        grid-template-columns: auto 1000px auto;
         grid-template-areas: ". hero2 .";
     }
 
-   
     @include hd{
         grid-template-columns: auto 1200px auto;
     }
 
     ul{
         display: grid;
-        grid-area: hero2;
         grid-template-rows: 360px 486px;
+        grid-template-areas: "diner2"
+                             "jukebox";
         
         @include tab{
             grid-template-columns: 50% auto;
-            grid-template-areas: "diner2 jukebox";
             grid-template-rows: 625px;
+            grid-template-areas: "diner2 jukebox";
         }
     
         @include desk{
+            grid-area: hero2;
             grid-template-columns: 60% auto;
-            grid-template-areas: "diner2 jukebox";
         }
     
         @include hd{
-            grid-template-columns: 70% auto;
+            grid-template-columns: 65% auto;
+            grid-template-rows: 377px 377px;
             grid-template-areas: "diner2 jukebox"
                                  "diner2 stools";
-            grid-template-rows: repeat(2 377px);
         }
         
         li{
@@ -50,10 +50,10 @@
     }
     #stools{
         display: none;
+        background-image: url("..img/Hero2/aside.jpg");
         @include hd{
             display: list-item;
             grid-area: stools;
         }
-        background-image: url("..img/Hero2/aside.jpg");
     }
 }

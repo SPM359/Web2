@@ -138,64 +138,70 @@ footer #media {
   }
 }
 
+#careers {
+  color: #141719;
+}
+@media (min-width: 768px) {
+  #careers {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". careers .";
+  }
+}
 @media (min-width: 1440px) {
   #careers {
     grid-template-columns: auto 1000px auto;
-    grid-template-areas: ". careers .";
-    gap: 16px;
-    color: #141719;
   }
 }
 #careers ul {
   display: grid;
-  grid-template-columns: 100%;
-  grid-template-areas: "franchise" "work";
   gap: 16px;
 }
 @media (min-width: 768px) {
   #careers ul {
     grid-template-columns: 50% auto;
-    grid-template-areas: "franchise work";
-    gap: 16px;
+    grid-area: careers;
+    gap: 24px;
   }
 }
 #careers ul li {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". careers .";
-}
-#careers ul li > div {
-  grid-area: careers;
+  grid-template-areas: ". careers-content .";
   background-color: #AFAFD5;
 }
+#careers ul li > div {
+  grid-area: careers-content;
+}
 #careers ul li > div > div {
-  background-position: center;
+  background-position: top;
+  background-size: cover;
   border: 4px #FFFAF3 solid;
   height: 85px;
   width: 85px;
   border-radius: 100%;
 }
+@media (min-width: 768px) {
+  #careers ul li > div > div {
+    height: 113px;
+    width: 113px;
+  }
+}
 #careers ul li > div #icon-left {
-  background-image: url("../img/Hero1/franchise.png");
+  background-image: url("../img/Hero1/franchise.jpg");
 }
 #careers ul li > div #icon-right {
-  background-image: url("../img/Hero1/work.png");
+  background-image: url("../img/Hero1/work.jpg");
 }
 #careers ul li > div button {
   background-color: #DD2D4A;
   color: #FFFAF3;
 }
-#careers ul #franchise {
-  grid-area: franchise;
-}
-#careers ul #work {
-  grid-area: work;
-}
 
 @media (min-width: 1024px) {
   #hero2 {
     display: grid;
-    grid-template-columns: auto 990px auto;
+    grid-template-columns: auto 1000px auto;
     grid-template-areas: ". hero2 .";
   }
 }
@@ -206,27 +212,27 @@ footer #media {
 }
 #hero2 ul {
   display: grid;
-  grid-area: hero2;
   grid-template-rows: 360px 486px;
+  grid-template-areas: "diner2" "jukebox";
 }
 @media (min-width: 768px) {
   #hero2 ul {
     grid-template-columns: 50% auto;
-    grid-template-areas: "diner2 jukebox";
     grid-template-rows: 625px;
+    grid-template-areas: "diner2 jukebox";
   }
 }
 @media (min-width: 1024px) {
   #hero2 ul {
+    grid-area: hero2;
     grid-template-columns: 60% auto;
-    grid-template-areas: "diner2 jukebox";
   }
 }
 @media (min-width: 1440px) {
   #hero2 ul {
-    grid-template-columns: 70% auto;
+    grid-template-columns: 65% auto;
+    grid-template-rows: 377px 377px;
     grid-template-areas: "diner2 jukebox" "diner2 stools";
-    grid-template-rows: repeat(2 377px);
   }
 }
 #hero2 ul li {
@@ -252,31 +258,30 @@ footer #media {
   }
 }
 
-#menu {
-  color: #141719;
-}
 @media (min-width: 768px) {
   #menu {
     display: grid;
     grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". menu .";
+    grid-template-areas: ". menuTitle ." ". menu .";
   }
 }
 @media (min-width: 1440px) {
   #menu {
-    grid-template-columns: auto 1200px auto;
+    grid-template-columns: auto 1000px auto;
   }
 }
-#menu > div {
+#menu #menu-title {
   display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". menuTitle .";
   grid-area: menuTitle;
   color: #8E7857;
 }
-#menu ul {
+#menu #menu-items {
   display: grid;
   grid-area: menu;
+  color: #141719;
+}
+#menu ul {
+  display: grid;
 }
 @media (min-width: 768px) {
   #menu ul {
@@ -289,7 +294,6 @@ footer #media {
   #menu ul {
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: "n1 n1 n2 n2 n3 n3" ". n4 n4 n5 n5 .";
-    gap: 16px;
   }
 }
 #menu ul li {
