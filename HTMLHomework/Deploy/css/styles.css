@@ -35,6 +35,10 @@ address {
   font-style: normal;
 }
 
+input {
+  font-family: "Montserrat", sans-serif;
+}
+
 html {
   font-size: 100%;
 }
@@ -145,6 +149,12 @@ footer #media > ul {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". search .";
   background-color: #EAEAFE;
+  padding: 18px 0px;
+}
+@media (min-width: 768px) {
+  #search {
+    padding: 22px 0px;
+  }
 }
 @media (min-width: 1440px) {
   #search {
@@ -153,15 +163,27 @@ footer #media > ul {
 }
 #search > div {
   grid-area: search;
-  margin: 24px;
+}
+#search > div > form {
+  display: grid;
+  grid-template-columns: 80% auto;
+  gap: 10px;
+}
+@media (min-width: 768px) {
+  #search > div > form {
+    grid-template-columns: 90% auto;
+  }
 }
 @media (min-width: 1024px) {
-  #search > div {
-    margin: 28px;
+  #search > div > form {
+    grid-template-columns: 93% auto;
   }
 }
 #search > div > form input {
-  color: #8E7857;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #8E7857;
+  border-radius: 0px;
   font-weight: 200;
   font-size: 1.25rem;
 }
@@ -186,6 +208,10 @@ footer #media > ul {
 }
 #search > div > form button {
   background-color: #DD2D4A;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0x;
+  font-size: 1.875rem;
 }
 #search > div > form button i {
   color: #FFFAF3;
@@ -467,7 +493,7 @@ footer #media > ul {
   #menu h1 {
     font-size: 1.75rem;
     margin-top: 27px;
-    margin-bottom: 17px;
+    margin-bottom: 16px;
   }
 }
 @media (min-width: 768px) {

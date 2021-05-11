@@ -12,7 +12,7 @@
         @include tab{
             display: grid;
             grid-template-columns: 40% auto;
-            grid-template-areas: "box1 box2";
+            grid-template-areas: "box1 box2"; 
         }
 
         @include desk{
