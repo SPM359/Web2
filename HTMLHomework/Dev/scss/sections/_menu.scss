@@ -20,15 +20,15 @@
         margin-bottom: 11px;
 
         @include tab{
-            font-size: rem-calc(28px);
+            font-size: rem-calc(28);
             margin-top: 27px;
             margin-bottom: 16px;
         }
-        @include tab{
-            font-size: rem-calc(35px);
+        @include desk{
+            font-size: rem-calc(35);
         }
-        @include tab{
-            font-size: rem-calc(37px);
+        @include hd{
+            font-size: rem-calc(37);
     }
 
     #menu-title{

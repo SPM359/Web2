@@ -96,24 +96,27 @@ footer #locations {
 footer #locations li {
   margin: 10px 0px;
 }
-footer #locations li address {
+footer #locations li > div {
+  display: flex;
+}
+footer #locations li > div address {
   font-weight: 400;
   font-size: 0.75rem;
 }
-footer #locations li i {
+footer #locations li > div i {
   color: #DD2D4A;
 }
-footer #locations li a {
+footer #locations li > div a {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 0.75rem;
   text-decoration: none;
 }
-footer #locations li a:link, footer #locations li a:visited {
+footer #locations li > div a:link, footer #locations li > div a:visited {
   color: #FFFAF3;
   transition: 0.25s;
 }
-footer #locations li a:hover, footer #locations li a:active {
+footer #locations li > div a:hover, footer #locations li > div a:active {
   color: #DD2D4A;
 }
 footer #search {
@@ -494,12 +497,12 @@ footer #media > ul {
     margin-bottom: 16px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #menu h1 {
     font-size: 2.1875rem;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1440px) {
   #menu h1 {
     font-size: 2.3125rem;
   }

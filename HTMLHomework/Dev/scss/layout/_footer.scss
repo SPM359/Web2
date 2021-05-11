@@ -43,27 +43,32 @@ footer{
         li{
             margin: 10px 0px;
 
-            address{
-                font-weight: 400;
-                font-size: rem-calc(12);
-            }
-            i{
-                color: $red;
-            }
-            a{
-                font-family: 'Roboto', sans-serif;
-                font-weight: 400;
-                font-size: rem-calc(12);
-                text-decoration: none;
-            }
+            >div{
 
-            a:link, a:visited{
-                color: $tanLight;
-                transition: 0.25s;
-            }
-            
-            a:hover, a:active{
-                color: $red;
+                display: flex;
+               
+                address{
+                    font-weight: 400;
+                    font-size: rem-calc(12);
+                }
+                i{
+                    color: $red;
+                }
+                a{
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 400;
+                    font-size: rem-calc(12);
+                    text-decoration: none;
+                }
+    
+                a:link, a:visited{
+                    color: $tanLight;
+                    transition: 0.25s;
+                }
+                
+                a:hover, a:active{
+                    color: $red;
+                }
             }
         }
     }
@@ -103,7 +108,7 @@ footer{
     #media{
         grid-area: media;
         >ul{
-            display: flex;
+            display: flex
         }
     }
 }
