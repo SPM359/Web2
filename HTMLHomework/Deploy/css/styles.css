@@ -23,6 +23,11 @@ p {
   padding: 0;
 }
 
+i {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   display: grid;
   grid-template-columns: 16px auto 16px;
@@ -139,13 +144,45 @@ footer #media {
 #hero1 ul li a h3 {
   font-size: rem-calc 20px;
   font-weight: 700;
+  margin-top: 14px;
+}
+@media (min-width: 1024px) {
+  #hero1 ul li a h3 {
+    font-size: rem-calc 25px;
+  }
 }
 #hero1 ul li a h4 {
   font-size: rem-calc 16px;
   font-weight: 600;
+  margin-bottom: 14px;
 }
 #hero1 ul li a h4 span {
-  font-weigth: 400;
+  font-weight: 400;
+}
+#hero1 ul li a i {
+  margin-top: 29px;
+  margin-right: 16px;
+  box-align: right;
+}
+#hero1 ul li a #location {
+  margin-top: 14px;
+  margin-bottom: 0px;
+}
+#hero1 ul li a #details {
+  font-size: rem-calc 18px;
+  font-weight: 700;
+  display: none;
+}
+@media (min-width: 1024px) {
+  #hero1 ul li a #details {
+    display: list-item;
+    margin-left: 30px;
+    margin-right: 5px;
+    margin-top: 25px;
+  }
+}
+#hero1 ul li a .top {
+  display: flex;
 }
 #hero1 #box1 {
   grid-area: box1;
@@ -293,7 +330,26 @@ footer #media {
     grid-template-columns: auto 1000px auto;
   }
 }
-#menu #menu-title {
+#menu h1 {
+  font-size: rem-calc(20px);
+  font-weight: 200;
+}
+@media (min-width: 768px) {
+  #menu h1 {
+    font-size: rem-calc(28px);
+  }
+}
+@media (min-width: 768px) {
+  #menu h1 {
+    font-size: rem-calc(35px);
+  }
+}
+@media (min-width: 768px) {
+  #menu h1 {
+    font-size: rem-calc(37px);
+  }
+}
+#menu h1 #menu-title {
   display: grid;
   grid-area: menuTitle;
   color: #8E7857;
@@ -305,6 +361,12 @@ footer #media {
 }
 #menu ul {
   display: grid;
+}
+#menu ul h2 {
+  font-size: rem-calc(27px);
+  font-weight: 600;
+  margin-top: 18px;
+  margin-top: 24px;
 }
 @media (min-width: 768px) {
   #menu ul {

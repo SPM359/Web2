@@ -35,14 +35,47 @@
                     h3{
                         font-size: rem-calc (20px);
                         font-weight: 700;
+                        margin-top: 14px;
+
+                        @include desk{
+                            font-size: rem-calc (25px);
+                        }
                     }
+
                     h4{
                         font-size: rem-calc (16px);
                         font-weight: 600;
+                        margin-bottom: 14px;
                         
                         span{
-                            font-weigth: 400;
+                            font-weight: 400;
                         }
+                    }
+                    
+                    i{
+                        margin-top: 29px;
+                        margin-right: 16px;
+                        box-align: right;
+                    }
+                    #location{
+                        margin-top: 14px;
+                        margin-bottom: 0px;
+                    }
+                    #details{
+                        font-size: rem-calc (18px);
+                        font-weight: 700;
+                        display: none;
+
+                        @include desk{
+                            display: list-item;
+                            margin-left: 30px;
+                            margin-right: 5px;
+                            margin-top: 25px;
+                        }
+                    }
+
+                    .top{
+                        display: flex;
                     }
                 }
             }

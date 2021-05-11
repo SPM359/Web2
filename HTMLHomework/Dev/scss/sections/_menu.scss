@@ -11,10 +11,25 @@
         grid-template-columns: auto 1000px auto;
     }
 
+    h1{
+        font-size: rem-calc(20px);
+        font-weight: 200;
+
+        @include tab{
+            font-size: rem-calc(28px);
+        }
+        @include tab{
+            font-size: rem-calc(35px);
+        }
+        @include tab{
+            font-size: rem-calc(37px);
+    }
+
     #menu-title{
         display: grid;
         grid-area: menuTitle;
         color: $goldenDark;
+        }
     }
 
     #menu-items{
@@ -25,6 +40,13 @@
 
     ul{
         display: grid;
+
+        h2{
+            font-size: rem-calc(27px);
+            font-weight: 600;
+            margin-top:18px;
+            margin-top:24px;
+        }
 
         @include tab{
             grid-template-columns: repeat(4, 1fr);     
