@@ -136,6 +136,17 @@ footer #media {
 #hero1 ul li a {
   grid-area: boxes;
 }
+#hero1 ul li a h3 {
+  font-size: rem-calc 20px;
+  font-weight: 700;
+}
+#hero1 ul li a h4 {
+  font-size: rem-calc 16px;
+  font-weight: 600;
+}
+#hero1 ul li a h4 span {
+  font-weigth: 400;
+}
 #hero1 #box1 {
   grid-area: box1;
   background-color: #A02035;
