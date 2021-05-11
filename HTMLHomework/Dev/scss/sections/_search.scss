@@ -10,9 +10,39 @@
 
     >div{
         grid-area: search;
+        margin: 24px;
 
-        form{
-            color: $goldenDark;
+        @include desk{
+            margin: 28px;
+        }
+
+        >form{
+
+            input{
+                color: $goldenDark;
+                font-weight: 200;
+                font-size: rem-calc(20);
+
+                @include tab{
+                    font-size: rem-calc(30);
+                }
+
+                @include desk{
+                    font-size: rem-calc(35);
+                }
+
+                &::placeholder {
+                    color: $goldenDark;
+                }
+
+                &:-ms-input-placeholder {
+                    color: $goldenDark;
+                }
+
+                &::-ms-input-placeholder {
+                    color: $goldenDark;
+                }
+            }
             
             button{
                 background-color: $red;

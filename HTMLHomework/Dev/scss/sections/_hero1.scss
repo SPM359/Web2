@@ -31,6 +31,16 @@
 
                 a{
                     grid-area: boxes;
+                    text-decoration: none;
+        
+                    &:link, &:visited{
+                        color: $tealDark;
+                        transition: 0.25s;
+                    }
+                    
+                    &:hover, &:active{
+                        color: $tanLight;
+                    }
 
                     h3{
                         font-size: rem-calc (20px);

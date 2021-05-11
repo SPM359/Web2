@@ -28,6 +28,17 @@ i {
   padding: 0;
 }
 
+address {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+}
+
+html {
+  font-size: 100%;
+}
+
 header {
   display: grid;
   grid-template-columns: 16px auto 16px;
@@ -53,6 +64,14 @@ footer {
 footer > div {
   grid-area: footer;
 }
+footer > div h3 {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+footer > div h4 {
+  font-weight: 600;
+  font-size: 1rem;
+}
 @media (min-width: 768px) {
   footer > div {
     display: grid;
@@ -68,19 +87,57 @@ footer > div {
 }
 footer #locations {
   grid-area: locations;
+  padding: 10px 0px;
+}
+footer #locations li {
+  margin: 10px 0px;
+}
+footer #locations li address {
+  font-weight: 400;
+  font-size: 0.75rem;
 }
 footer #locations li i {
+  color: #DD2D4A;
+}
+footer #locations li a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+footer #locations li a:link, footer #locations li a:visited {
+  color: #FFFAF3;
+  transition: 0.25s;
+}
+footer #locations li a:hover, footer #locations li a:active {
   color: #DD2D4A;
 }
 footer #search {
   grid-area: search;
   background: #141719;
 }
+footer #search > div > form > input {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #141719;
+}
+footer #search > div > form > input::placeholder {
+  color: #141719;
+}
+footer #search > div > form > input:-ms-input-placeholder {
+  color: #141719;
+}
+footer #search > div > form > input::-ms-input-placeholder {
+  color: #141719;
+}
 footer #search > div > form > button {
   background-color: #DD2D4A;
 }
 footer #media {
   grid-area: media;
+}
+footer #media > ul {
+  display: flex;
 }
 
 #search {
@@ -96,14 +153,41 @@ footer #media {
 }
 #search > div {
   grid-area: search;
+  margin: 24px;
 }
-#search > div form {
+@media (min-width: 1024px) {
+  #search > div {
+    margin: 28px;
+  }
+}
+#search > div > form input {
+  color: #8E7857;
+  font-weight: 200;
+  font-size: 1.25rem;
+}
+@media (min-width: 768px) {
+  #search > div > form input {
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: 1024px) {
+  #search > div > form input {
+    font-size: 2.1875rem;
+  }
+}
+#search > div > form input::placeholder {
   color: #8E7857;
 }
-#search > div form button {
+#search > div > form input:-ms-input-placeholder {
+  color: #8E7857;
+}
+#search > div > form input::-ms-input-placeholder {
+  color: #8E7857;
+}
+#search > div > form button {
   background-color: #DD2D4A;
 }
-#search > div form button i {
+#search > div > form button i {
   color: #FFFAF3;
 }
 
@@ -140,6 +224,14 @@ footer #media {
 }
 #hero1 ul li a {
   grid-area: boxes;
+  text-decoration: none;
+}
+#hero1 ul li a:link, #hero1 ul li a:visited {
+  color: #141719;
+  transition: 0.25s;
+}
+#hero1 ul li a:hover, #hero1 ul li a:active {
+  color: #FFFAF3;
 }
 #hero1 ul li a h3 {
   font-size: rem-calc 20px;
@@ -232,6 +324,25 @@ footer #media {
 }
 #careers ul li > div {
   grid-area: careers-content;
+}
+#careers ul li > div h1 {
+  font-weight: 400;
+  font-size: 1.375rem;
+}
+@media (min-width: 768px) {
+  #careers ul li > div h1 {
+    font-size: 2.1875rem;
+  }
+}
+@media (min-width: 1024px) {
+  #careers ul li > div h1 {
+    font-weight: 300;
+  }
+}
+@media (min-width: 1440px) {
+  #careers ul li > div h1 {
+    font-weight: 200;
+  }
 }
 #careers ul li > div > div {
   background-position: top;
@@ -331,22 +442,28 @@ footer #media {
   }
 }
 #menu h1 {
-  font-size: rem-calc(20px);
+  font-size: 1.25rem;
   font-weight: 200;
+  color: #8E7857;
+  margin-left: 16px;
+  margin-top: 19px;
+  margin-bottom: 11px;
 }
 @media (min-width: 768px) {
   #menu h1 {
-    font-size: rem-calc(28px);
+    font-size: 1.75rem;
+    margin-top: 27px;
+    margin-bottom: 17px;
   }
 }
 @media (min-width: 768px) {
   #menu h1 {
-    font-size: rem-calc(35px);
+    font-size: 2.1875rem;
   }
 }
 @media (min-width: 768px) {
   #menu h1 {
-    font-size: rem-calc(37px);
+    font-size: 2.3125rem;
   }
 }
 #menu h1 #menu-title {
@@ -363,10 +480,16 @@ footer #media {
   display: grid;
 }
 #menu ul h2 {
-  font-size: rem-calc(27px);
+  font-size: 1.6875rem;
   font-weight: 600;
-  margin-top: 18px;
-  margin-top: 24px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+@media (min-width: 768px) {
+  #menu ul h2 {
+    margin-top: 18px;
+    margin-bottom: 45px;
+  }
 }
 @media (min-width: 768px) {
   #menu ul {

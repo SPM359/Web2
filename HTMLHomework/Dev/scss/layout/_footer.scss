@@ -13,6 +13,16 @@ footer{
     >div{
         grid-area: footer;
 
+        h3{
+            font-weight: 600;
+            font-size: rem-calc(20);
+        }
+        
+        h4{
+            font-weight: 600;
+            font-size: rem-calc(16);
+        }
+
         @include tab{
             display: grid;
             grid-template-columns: 50% auto;
@@ -28,9 +38,31 @@ footer{
 
     #locations{
         grid-area: locations;
+        padding: 10px 0px;
 
         li{
+            margin: 10px 0px;
+
+            address{
+                font-weight: 400;
+                font-size: rem-calc(12);
+            }
             i{
+                color: $red;
+            }
+            a{
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                font-size: rem-calc(12);
+                text-decoration: none;
+            }
+
+            a:link, a:visited{
+                color: $tanLight;
+                transition: 0.25s;
+            }
+            
+            a:hover, a:active{
                 color: $red;
             }
         }
@@ -43,6 +75,24 @@ footer{
         >div{
             >form{
 
+                >input{
+                    font-weight: 600;
+                    font-size: rem-calc(14);
+                    color: $tealDark;
+
+                    &::placeholder {
+                        color: $tealDark;
+                    }
+    
+                    &:-ms-input-placeholder {
+                        color: $tealDark;
+                    }
+    
+                    &::-ms-input-placeholder {
+                        color: $tealDark;
+                    }
+                }
+
                 >button{
                     background-color: $red;
                 }
@@ -52,5 +102,8 @@ footer{
 
     #media{
         grid-area: media;
+        >ul{
+            display: flex;
+        }
     }
 }

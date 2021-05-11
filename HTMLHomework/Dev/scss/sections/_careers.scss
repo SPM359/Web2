@@ -32,6 +32,23 @@
             >div{
                 grid-area: careers-content;
 
+                h1{
+                    font-weight: 400;
+                    font-size: rem-calc(22);
+
+                    @include tab{
+                        font-size: rem-calc(35);
+                    }
+                    
+                    @include desk{
+                        font-weight: 300;
+                    }
+
+                    @include hd{
+                        font-weight: 200;
+                    }
+                }
+
                 >div{
                     background-position: top;
                     background-size: cover;
@@ -44,7 +61,7 @@
                         height: 113px;
                         width: 113px;
                     }
-                }
+                } 
 
                 #icon-left{
                     background-image: url("../img/Hero1/franchise.jpg");
