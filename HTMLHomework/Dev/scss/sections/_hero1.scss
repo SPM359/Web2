@@ -1,10 +1,9 @@
 #hero1{
 
-    color: $tealDark;
-    
     img{
         object-fit: cover;
         width: 100%;
+        display: block;
     }
 
     ul{
@@ -33,6 +32,7 @@
                 a{
                     grid-area: boxes;
                     text-decoration: none;
+                    display: flex;
         
                     &:link, &:visited{
                         color: $tealDark;
@@ -43,50 +43,25 @@
                         color: $tanLight;
                     }
 
-                    h3{
-                        font-size: rem-calc (20px);
-                        font-weight: 700;
-                        margin-top: 14px;
+                    div{
 
-                        @include desk{
-                            font-size: rem-calc (25px);
-                        }
                     }
 
-                    h4{
-                        font-size: rem-calc (16px);
-                        font-weight: 600;
-                        margin-bottom: 14px;
-                        
-                        span{
-                            font-weight: 400;
-                        }
-                    }
-                    
-                    i{
-                        margin-top: 29px;
-                        margin-right: 16px;
-                        box-align: right;
-                    }
-                    #location{
-                        margin-top: 14px;
-                        margin-bottom: 0px;
-                    }
-                    #details{
-                        font-size: rem-calc (18px);
-                        font-weight: 700;
-                        display: none;
-
-                        @include desk{
-                            display: list-item;
-                            margin-left: 30px;
-                            margin-right: 5px;
-                            margin-top: 25px;
-                        }
-                    }
-
-                    .top{
+                    .details{
                         display: flex;
+                        margin-left: auto;
+                        align-items: center;
+                        font-weight: 700;
+                        font-size: rem-calc(18);
+                        
+                        h4{
+                            display: none;
+                            margin-right: 7px;
+
+                            @include desk{
+                                display: block;
+                            }
+                        }
                     }
                 }
             }
@@ -95,14 +70,48 @@
         #box1{
             grid-area: box1;
             background-color: $redDark;
+
+            a{
+                div{
+                    h3{
+                        font-size: rem-calc (18);
+                        font-weight: 700;
+        
+                        @include desk{
+                            font-size: rem-calc(25);
+                        }
+                    }
+        
+                    h4{
+                        font-size: rem-calc(16);
+                        font-weight: 600;
+        
+                        @include tab{
+                            font-size: rem-calc(14);
+                        }
+                        @include desk{
+                            font-size: rem-calc(16);
+                        }
+                    }
+                }
+            }
+           
         }
         #box2{
             grid-area: box2;
             background-color: $red;
 
-            @include hd{
-                grid-template-columns: 16px 480px auto;
+            a{
+                div{
+                    h4{
+                        font-size: rem-calc(16);
+                        font-weight: 600;
+        
+                        span{
+                            font-weight: 400;
+                        }
+                    }
+                }
+                }
             }
-    }
-
     }

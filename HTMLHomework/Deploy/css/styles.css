@@ -217,12 +217,10 @@ footer #media > ul {
   color: #FFFAF3;
 }
 
-#hero1 {
-  color: #141719;
-}
 #hero1 img {
   object-fit: cover;
   width: 100%;
+  display: block;
 }
 @media (min-width: 768px) {
   #hero1 ul {
@@ -251,6 +249,7 @@ footer #media > ul {
 #hero1 ul li a {
   grid-area: boxes;
   text-decoration: none;
+  display: flex;
 }
 #hero1 ul li a:link, #hero1 ul li a:visited {
   color: #141719;
@@ -259,61 +258,59 @@ footer #media > ul {
 #hero1 ul li a:hover, #hero1 ul li a:active {
   color: #FFFAF3;
 }
-#hero1 ul li a h3 {
-  font-size: rem-calc 20px;
-  font-weight: 700;
-  margin-top: 14px;
-}
-@media (min-width: 1024px) {
-  #hero1 ul li a h3 {
-    font-size: rem-calc 25px;
-  }
-}
-#hero1 ul li a h4 {
-  font-size: rem-calc 16px;
-  font-weight: 600;
-  margin-bottom: 14px;
-}
-#hero1 ul li a h4 span {
-  font-weight: 400;
-}
-#hero1 ul li a i {
-  margin-top: 29px;
-  margin-right: 16px;
-  box-align: right;
-}
-#hero1 ul li a #location {
-  margin-top: 14px;
-  margin-bottom: 0px;
-}
-#hero1 ul li a #details {
-  font-size: rem-calc 18px;
-  font-weight: 700;
-  display: none;
-}
-@media (min-width: 1024px) {
-  #hero1 ul li a #details {
-    display: list-item;
-    margin-left: 30px;
-    margin-right: 5px;
-    margin-top: 25px;
-  }
-}
-#hero1 ul li a .top {
+#hero1 ul li a .details {
   display: flex;
+  margin-left: auto;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+#hero1 ul li a .details h4 {
+  display: none;
+  margin-right: 7px;
+}
+@media (min-width: 1024px) {
+  #hero1 ul li a .details h4 {
+    display: block;
+  }
 }
 #hero1 #box1 {
   grid-area: box1;
   background-color: #A02035;
 }
+#hero1 #box1 a div h3 {
+  font-size: rem-calc 18;
+  font-weight: 700;
+}
+@media (min-width: 1024px) {
+  #hero1 #box1 a div h3 {
+    font-size: 1.5625rem;
+  }
+}
+#hero1 #box1 a div h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  #hero1 #box1 a div h4 {
+    font-size: 0.875rem;
+  }
+}
+@media (min-width: 1024px) {
+  #hero1 #box1 a div h4 {
+    font-size: 1rem;
+  }
+}
 #hero1 #box2 {
   grid-area: box2;
   background-color: #DD2D4A;
 }
-@media (min-width: 1440px) {
-  #hero1 #box2 {
-    grid-template-columns: 16px 480px auto;
-  }
+#hero1 #box2 a div h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+#hero1 #box2 a div h4 span {
+  font-weight: 400;
 }
 
 #careers {
@@ -391,6 +388,7 @@ footer #media > ul {
   height: 85px;
   width: 85px;
   border-radius: 100%;
+  margin-right: auto;
 }
 @media (min-width: 768px) {
   #careers ul li > div > div {
