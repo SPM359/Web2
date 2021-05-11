@@ -307,7 +307,6 @@ footer #media > ul {
 }
 #careers ul {
   display: grid;
-  gap: 16px;
 }
 @media (min-width: 768px) {
   #careers ul {
@@ -321,9 +320,24 @@ footer #media > ul {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". careers-content .";
   background-color: #AFAFD5;
+  margin: 16px 0px;
+  padding: 16px 0px;
+}
+@media (min-width: 768px) {
+  #careers ul li {
+    margin: 24px 0px 40px;
+    padding: 24px 0px;
+  }
+}
+@media (min-width: 1024px) {
+  #careers ul li {
+    margin: 24px 0px 60px;
+    padding: 16px 0px;
+  }
 }
 #careers ul li > div {
   grid-area: careers-content;
+  display: flex;
 }
 #careers ul li > div h1 {
   font-weight: 400;
@@ -475,6 +489,7 @@ footer #media > ul {
   display: grid;
   grid-area: menu;
   color: #141719;
+  margin-bottom: 24px;
 }
 #menu ul {
   display: grid;
@@ -489,6 +504,16 @@ footer #media > ul {
   #menu ul h2 {
     margin-top: 18px;
     margin-bottom: 45px;
+  }
+}
+#menu ul p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  #menu ul p {
+    margin-bottom: 20px;
   }
 }
 @media (min-width: 768px) {
@@ -521,6 +546,12 @@ footer #media > ul {
 #menu ul li > section > div > button {
   background-color: #DD2D4A;
   color: #FFFAF3;
+  margin-bottom: 16px;
+}
+@media (min-width: 768px) {
+  #menu ul li > section > div > button {
+    margin-bottom: 24px;
+  }
 }
 @media (min-width: 768px) {
   #menu ul #n1 {

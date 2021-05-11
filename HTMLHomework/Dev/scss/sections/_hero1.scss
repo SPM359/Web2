@@ -8,6 +8,7 @@
     }
 
     ul{
+
         @include tab{
             display: grid;
             grid-template-columns: 40% auto;

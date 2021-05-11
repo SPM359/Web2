@@ -14,7 +14,6 @@
 
     ul{ 
         display: grid; 
-        gap: 16px;
 
         @include tab{
             grid-template-columns: 50% auto;
@@ -28,9 +27,22 @@
             grid-template-columns: 16px auto 16px;
             grid-template-areas: ". careers-content .";
             background-color: $indigo;
+            margin: 16px 0px;
+            padding: 16px 0px;
+
+            @include tab{
+                margin: 24px 0px 40px;
+                padding: 24px 0px;
+            }
+
+            @include desk{
+                margin: 24px 0px 60px;
+                padding: 16px 0px;
+            }
 
             >div{
                 grid-area: careers-content;
+                display: flex;
 
                 h1{
                     font-weight: 400;

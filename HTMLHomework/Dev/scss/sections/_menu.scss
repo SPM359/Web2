@@ -40,15 +40,16 @@
 
     #menu-items{
         display: grid;
-        grid-area: menu;
+        grid-area: menu; 
         color: $tealDark;
+        margin-bottom: 24px;
     }
 
     ul{
         display: grid;
 
         h2{
-            font-size: rem-calc(27px);
+            font-size: rem-calc(27);
             font-weight: 600;
             margin-top:10px;
             margin-bottom:40px;
@@ -56,6 +57,16 @@
             @include tab{
                 margin-top:18px;
                 margin-bottom:45px;
+            }
+        }
+
+        p{
+            font-size: rem-calc(16);
+            font-weight: 400;
+            margin-bottom: 10px;
+
+            @include tab{
+                margin-bottom: 20px;
             }
         }
 
@@ -91,6 +102,11 @@
                     >button{
                         background-color: $red;
                         color: $tanLight;
+                        margin-bottom: 16px;
+
+                        @include tab{
+                            margin-bottom: 24px;
+                        }
                     }
                 }
             }
