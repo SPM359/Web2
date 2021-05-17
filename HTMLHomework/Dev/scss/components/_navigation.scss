@@ -2,7 +2,7 @@
     ul {
         height: 100%;
 
-        @include lg {
+        @include desk {
             display: flex;
             justify-content: flex-end;
         }
@@ -12,9 +12,9 @@
             // border: 1px solid red;
             text-align: right;
 
-            @include lg {
+            @include desk {
                 align-items: center;
-                border-right: 2px solid $charcoal;
+                border-right: 2px solid $darkTeal;
                 display: flex;
                 margin-bottom: 0px;
             }
@@ -26,13 +26,13 @@
                 padding: 0 20px;
                 text-decoration: none;
                 transition: 0.25s;
-                @include lg {
+                @include desk {
                     color: $black;
                 }
 
                 &:hover,
                 &:active {
-                    color: $yellow;
+                    color: $red;
                 }
             }
         }

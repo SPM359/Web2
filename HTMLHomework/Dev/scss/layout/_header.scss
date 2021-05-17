@@ -3,8 +3,39 @@ header{
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". header .";
     background-color: $tealDark;
+    position: fixed;
 
     >div{
         grid-area: header;
+
+        #burger-container {
+            align-items: center;
+            display: flex;
+            grid-area: burger;
+            padding: 10px;
+
+            @include desk {
+                display: none !important;
+            }
+
+            i {
+                margin-left: auto;
+                cursor: pointer;
+                font-size: rem-calc(30);
+            }
+        }
+
+        #nav-container {
+            // border: 1px solid blue;
+            background-color: $tealDark;
+            display: none;
+            grid-area: nav;
+            padding: 20px 10px 10px;
+
+            @include desk {
+                background-color: $tanLight;
+                display: block !important;
+            }
+    }
     }
 }
