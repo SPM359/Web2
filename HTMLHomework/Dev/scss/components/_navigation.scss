@@ -8,13 +8,12 @@
         }
 
         li {
-            margin-bottom: 20px;
-            // border: 1px solid red;
+            margin-bottom: 20px; 
             text-align: right;
 
             @include desk {
                 align-items: center;
-                border-right: 2px solid $darkTeal;
+                border-right: 2px solid $tealDark;
                 display: flex;
                 margin-bottom: 0px;
             }
@@ -26,16 +25,26 @@
                 padding: 0 20px;
                 text-decoration: none;
                 transition: 0.25s;
-                @include desk {
-                    color: $black;
+                @include desk{
+                    color: $tealDark;
                 }
 
                 &:hover,
-                &:active {
+                &:active{
                     color: $red;
                 }
             }
         }
+
+        li:first-child {
+            border: none;
+            display: none;
+
+            @include tab{
+                display: list-item;
+            }
+        }
+
         li:last-child {
             border: none;
         }

@@ -4,9 +4,20 @@ header{
     grid-template-areas: ". header .";
     background-color: $tealDark;
     position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 
     >div{
+        display: grid;
         grid-area: header;
+        grid-template-areas: "burger burger"
+                             "nav nav";
+
+        @include desk{
+            grid-template-areas: "survival nav";
+            grid-template-columns: 20% auto;
+        }
 
         #burger-container {
             align-items: center;
@@ -26,7 +37,6 @@ header{
         }
 
         #nav-container {
-            // border: 1px solid blue;
             background-color: $tealDark;
             display: none;
             grid-area: nav;
