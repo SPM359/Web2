@@ -1,0 +1,13 @@
+.menu-button{
+    background-color: $red;
+    border: none;
+    cursor: pointer;
+    font-size: rem-calc(14);
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.25s;
+    &:hover{
+        background-color: $tealDark;
+        color: $tanLight;
+    }
+}
