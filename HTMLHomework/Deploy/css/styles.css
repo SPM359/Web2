@@ -119,25 +119,25 @@ footer #locations li > div a:link, footer #locations li > div a:visited {
 footer #locations li > div a:hover, footer #locations li > div a:active {
   color: #DD2D4A;
 }
-footer #search {
+footer #search2 {
   grid-area: search;
   background: #141719;
 }
-footer #search > div > form > input {
+footer #search2 > div > form > input {
   font-weight: 600;
   font-size: 0.875rem;
   color: #141719;
 }
-footer #search > div > form > input::placeholder {
+footer #search2 > div > form > input::placeholder {
   color: #141719;
 }
-footer #search > div > form > input:-ms-input-placeholder {
+footer #search2 > div > form > input:-ms-input-placeholder {
   color: #141719;
 }
-footer #search > div > form > input::-ms-input-placeholder {
+footer #search2 > div > form > input::-ms-input-placeholder {
   color: #141719;
 }
-footer #search > div > form > button {
+footer #search2 > div > form > button {
   background-color: #DD2D4A;
 }
 footer #media {
