@@ -476,7 +476,7 @@ footer #media > ul {
   #menu {
     display: grid;
     grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". menuTitle ." ". menu .";
+    grid-template-areas: ". menu .";
   }
 }
 @media (min-width: 1440px) {
