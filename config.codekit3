@@ -601,6 +601,17 @@
       "oAP" : "\/HTMLHomework\/Deploy\/index.html",
       "oF" : 0
     },
+    "\/HTMLHomework\/Deploy\/js\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/HTMLHomework\/Deploy\/js\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/HTMLHomework\/Design\/McLaughlin_DemoDesign.sketch" : {
       "cB" : 0,
       "ft" : 8192,
@@ -895,6 +906,23 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/HTMLHomework\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/HTMLHomework\/node_modules",
+      "oF" : 0
+    },
+    "\/HTMLHomework\/node_modules\/jquery\/dist\/jquery.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/HTMLHomework\/node_modules\/jquery\/dist\/jquery-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     }
   },
   "hooks" : [
