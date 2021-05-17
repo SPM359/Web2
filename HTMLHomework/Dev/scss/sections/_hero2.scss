@@ -37,6 +37,11 @@
         li{
             background-size: cover;
             background-position: center;
+
+            img{
+                width: 100%;
+                height: 377px;
+            }
         }
     }
 
@@ -50,10 +55,8 @@
     }
     #stools{
         display: none;
-        background-image: url("..img/Hero2/aside.jpg");
         @include hd{
             display: list-item;
-            grid-area: stools;
         }
     }
 }

@@ -451,6 +451,10 @@ footer #media > ul {
   background-size: cover;
   background-position: center;
 }
+#hero2 ul li img {
+  width: 100%;
+  height: 377px;
+}
 #hero2 #diner2 {
   grid-area: diner2;
   background-image: url("../img/Hero2/hero2.jpg");
@@ -461,12 +465,10 @@ footer #media > ul {
 }
 #hero2 #stools {
   display: none;
-  background-image: url("..img/Hero2/aside.jpg");
 }
 @media (min-width: 1440px) {
   #hero2 #stools {
     display: list-item;
-    grid-area: stools;
   }
 }
 
