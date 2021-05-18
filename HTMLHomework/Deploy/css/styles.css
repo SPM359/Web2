@@ -141,6 +141,7 @@ header > div #burger-container i {
 header > div #nav-container {
   background-color: #E1DAD0;
   grid-area: nav;
+  display: none;
   padding: 20px 10px 10px;
 }
 @media (min-width: 1024px) {
