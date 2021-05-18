@@ -94,7 +94,7 @@ html {
   padding: 8px 12px;
   transition: 0.25s;
 }
-.menu-button:hover {
+.menu-button:hover, .menu-button:active {
   background-color: #A02035;
   color: #141719;
 }
