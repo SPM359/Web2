@@ -470,13 +470,16 @@ footer #media > ul li a:link:hover, footer #media > ul li a:link:active, footer 
 }
 #search > div > form button {
   background-color: #DD2D4A;
+  color: #FFFAF3;
   border: none;
   border-radius: 5px;
   padding: 10px 0x;
   font-size: 1.875rem;
 }
-#search > div > form button i {
-  color: #FFFAF3;
+#search > div > form button:hover, #search > div > form button:active {
+  background-color: #A02035;
+  color: #141719;
+  transition: 0.25s;
 }
 
 #hero1 img {
@@ -676,10 +679,6 @@ footer #media > ul li a:link:hover, footer #media > ul li a:link:active, footer 
   #careers ul li > div section .career-button {
     margin-bottom: 20px;
   }
-}
-#careers ul li > div section .career-button button {
-  background-color: #DD2D4A;
-  color: #FFFAF3;
 }
 #careers ul li > div aside {
   margin-left: auto;

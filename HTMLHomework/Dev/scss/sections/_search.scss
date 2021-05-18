@@ -66,12 +66,16 @@
             
             button{
                 background-color: $red;
+                color: $tanLight;
                 border: none;
                 border-radius: 5px;
                 padding: 10px 0x;
                 font-size: rem-calc(30);
-                i{
-                    color: $tanLight;
+
+                &:hover, &:active {
+                    background-color: $redDark;
+                    color: $tealDark;
+                    transition: 0.25s;
                 }
             }
         }
