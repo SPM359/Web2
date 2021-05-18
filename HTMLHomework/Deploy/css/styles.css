@@ -126,6 +126,7 @@ header > div #burger-container {
   display: flex;
   grid-area: burger;
   padding: 10px;
+  margin-right: 16px;
 }
 @media (min-width: 1024px) {
   header > div #burger-container {
