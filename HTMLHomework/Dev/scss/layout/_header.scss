@@ -21,6 +21,7 @@ header{
 
        #logo-container{
            grid-area: logo;
+           margin-left: 16px;
         }
 
         #burger-container {
@@ -42,8 +43,7 @@ header{
         }
 
         #nav-container {
-            background-color: $tanLight;
-            display: none;
+            background-color: $tanDark;
             grid-area: nav;
             padding: 20px 10px 10px;
 

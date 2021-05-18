@@ -65,7 +65,7 @@ html {
   }
 }
 #nav-container ul li a:link, #nav-container ul li a:visited {
-  color: #FFFAF3;
+  color: #141719;
   font-family: "Montserrat", sans-serif;
   padding: 0 20px;
   text-decoration: none;
@@ -119,6 +119,7 @@ header > div {
 }
 header > div #logo-container {
   grid-area: logo;
+  margin-left: 16px;
 }
 header > div #burger-container {
   align-items: center;
@@ -138,8 +139,7 @@ header > div #burger-container i {
   color: #DD2D4A;
 }
 header > div #nav-container {
-  background-color: #FFFAF3;
-  display: none;
+  background-color: #E1DAD0;
   grid-area: nav;
   padding: 20px 10px 10px;
 }
