@@ -1,4 +1,4 @@
-footer{
+footer{ 
 
     display: grid;
     grid-template-columns: 16px auto 16px;
@@ -38,14 +38,30 @@ footer{
 
     #locations{
         grid-area: locations;
-        padding: 10px 0px;
+        margin-top: 24px;
+
+        @include tab{
+            margin-top: 28px;
+        }
+
+        @include desk{
+            margin-top: 40px;
+        }
+
+        @include hd{
+            margin-top: 66px;
+        }
 
         li{
-            margin: 10px 0px;
+
+            margin-top: 16px;
 
             >div{
 
                 display: flex;
+                align-items: flex-end;
+                margin-left: auto;
+                margin: 16px 0px;
                
                 address{
                     font-weight: 400;
@@ -71,11 +87,28 @@ footer{
                 }
             }
         }
+
+        .top-location{
+            border-bottom: 1px solid $white;
+        }
     }
 
     #search2{
         grid-area: search;
         background: $tealDark;
+        margin-top: 24px;
+
+        @include tab{
+            margin-top: 28px;
+        }
+
+        @include desk{
+            margin-top: 40px;
+        }
+
+        @include hd{
+            margin-top: 66px;
+        }
 
         >div{
             >form{
@@ -107,8 +140,47 @@ footer{
 
     #media{
         grid-area: media;
+        margin-top: 16px;
+
+        @include tab{
+            margin-top: 28px;
+        }
+
+        @include desk{
+            margin-top: 40px;
+        }
+
+        @include hd{
+            margin-top: 66px;
+        }
+
         >ul{
-            display: flex
+            display: flex;
+
+            @include desk{
+                justify-content: flex-end;
+            }
+
+            li{
+                margin-right: 16px;
+                margin-top: 16px;
+                margin-bottom: 20px;
+
+                @include tab{
+                    margin-right: 24px;
+                    margin-top: 24px;
+                    margin-bottom: 0px;
+                }
+
+                a:link, a:visited {
+                    color: $white;
+                    font-size: rem-calc(30);
+
+                    &:hover, &:active {
+                        color: $red;
+                    }
+            }
         }
     }
+}
 }
