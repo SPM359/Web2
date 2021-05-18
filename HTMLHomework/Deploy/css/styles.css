@@ -163,7 +163,12 @@ footer #media > ul {
 }
 @media (min-width: 768px) {
   #search {
-    padding: 22px 0px;
+    padding: 24px 0px;
+  }
+}
+@media (min-width: 1024px) {
+  #search {
+    padding: 24px 0px 24px;
   }
 }
 @media (min-width: 1440px) {
@@ -250,6 +255,17 @@ footer #media > ul {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". boxes .";
+  padding: 16px 0px;
+}
+@media (min-width: 768px) {
+  #hero1 ul li {
+    padding: 20px 0px;
+  }
+}
+@media (min-width: 1024px) {
+  #hero1 ul li {
+    padding: 16px 0px;
+  }
 }
 @media (min-width: 1440px) {
   #hero1 ul li {
@@ -274,6 +290,7 @@ footer #media > ul {
   align-items: center;
   font-weight: 700;
   font-size: 1.125rem;
+  color: #141719;
 }
 #hero1 ul li a .details h4 {
   display: none;
@@ -354,44 +371,65 @@ footer #media > ul {
   grid-template-areas: ". careers-content .";
   background-color: #AFAFD5;
   margin: 16px 0px;
-  padding: 16px 0px;
 }
 @media (min-width: 768px) {
   #careers ul li {
     margin: 24px 0px 40px;
-    padding: 24px 0px;
   }
 }
 @media (min-width: 1024px) {
   #careers ul li {
     margin: 24px 0px 60px;
-    padding: 16px 0px;
   }
 }
 #careers ul li > div {
   grid-area: careers-content;
   display: flex;
 }
-#careers ul li > div h1 {
+#careers ul li > div section {
+  display: grid;
+}
+#careers ul li > div section article h1 {
   font-weight: 400;
   font-size: 1.375rem;
+  margin: 30px 0px 10px;
 }
 @media (min-width: 768px) {
-  #careers ul li > div h1 {
+  #careers ul li > div section article h1 {
     font-size: 2.1875rem;
+    margin: 30px 0px 16px;
   }
 }
 @media (min-width: 1024px) {
-  #careers ul li > div h1 {
+  #careers ul li > div section article h1 {
     font-weight: 300;
+    margin: 50px 0px 10px;
   }
 }
 @media (min-width: 1440px) {
-  #careers ul li > div h1 {
+  #careers ul li > div section article h1 {
     font-weight: 200;
   }
 }
-#careers ul li > div > div {
+#careers ul li > div section .career-button {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 0;
+  margin-bottom: 24px;
+}
+@media (min-width: 1024px) {
+  #careers ul li > div section .career-button {
+    margin-bottom: 20px;
+  }
+}
+#careers ul li > div section .career-button button {
+  background-color: #DD2D4A;
+  color: #FFFAF3;
+}
+#careers ul li > div aside {
+  margin-left: auto;
+}
+#careers ul li > div aside div {
   background-position: top;
   background-size: cover;
   border: 4px #FFFAF3 solid;
@@ -399,11 +437,21 @@ footer #media > ul {
   width: 85px;
   border-radius: 100%;
   margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 @media (min-width: 768px) {
-  #careers ul li > div > div {
+  #careers ul li > div aside div {
     height: 113px;
     width: 113px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
+@media (min-width: 1024px) {
+  #careers ul li > div aside div {
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
 }
 #careers ul li > div #icon-left {
@@ -412,15 +460,11 @@ footer #media > ul {
 #careers ul li > div #icon-right {
   background-image: url("../img/Hero1/work.jpg");
 }
-#careers ul li > div button {
-  background-color: #DD2D4A;
-  color: #FFFAF3;
-}
 
 @media (min-width: 1024px) {
   #hero2 {
     display: grid;
-    grid-template-columns: auto 1000px auto;
+    grid-template-columns: 16px auto 16px;
     grid-template-areas: ". hero2 .";
   }
 }

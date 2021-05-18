@@ -24,6 +24,15 @@
                 display: grid;
                 grid-template-columns: 16px auto 16px;
                 grid-template-areas: ". boxes .";
+                padding: 16px 0px;
+
+                @include tab{
+                    padding: 20px 0px;
+                }
+
+                @include desk{
+                    padding: 16px 0px;
+                }
 
                 @include hd{
                     grid-template-columns: auto 480px 16px;
@@ -53,6 +62,7 @@
                         align-items: center;
                         font-weight: 700;
                         font-size: rem-calc(18);
+                        color: $tealDark;
                         
                         h4{
                             display: none;
