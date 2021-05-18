@@ -1,16 +1,15 @@
-.menu-button{
-    background-color: $red;
-    color: $tanLight;
-    font-family: "Montserrat", sans-serif;
-    border: none;
-    cursor: pointer;
-    font-size: rem-calc(14);
-    font-weight: 600;
-    padding: 8px 12px;
-    transition: 0.25s;
-   
-    &:hover, &:active{
-        background-color: $redDark;
-        color: $tealDark;
-    }
+.menu-button {
+	background-color: $red;
+	border: none;
+	color: $tanLight;
+	cursor: pointer;
+	font-family: "Montserrat", sans-serif;
+	font-size: rem-calc(14);
+	font-weight: 600;
+	padding: 8px 12px;
+	transition: 0.25s;
+	&:hover, &:active {
+		background-color: $redDark;
+		color: $tealDark;
+	}
 }

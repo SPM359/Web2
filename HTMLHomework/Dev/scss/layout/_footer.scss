@@ -1,260 +1,204 @@
-footer{ 
-
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". footer .";
-    background-color: $tealDark;
-
-    @include hd{
-        grid-template-columns: auto 1200px auto;
-    }
-
-    >div{
-        grid-area: footer;
-
-        h3{
-            font-weight: 600;
-            font-size: rem-calc(20);
-        }
-
-        @include tab{
-            display: grid;
-            grid-template-columns: 50% auto;
-            grid-template-areas: "locations search"
+footer {
+	background-color: $tealDark;
+	display: grid;
+	grid-template-areas: ". footer .";
+	grid-template-columns: 16px auto 16px;
+	@include hd {
+		grid-template-columns: auto 1200px auto;
+	}
+	>div {
+		grid-area: footer;
+		h3 {
+			font-size: rem-calc(20);
+			font-weight: 600;
+		}
+		@include tab {
+			display: grid;
+			grid-template-areas: "locations search"
                                  "locations media";
-        }
-    
-        @include desk{
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-areas: "locations search media";
-        }
-    }
-
-    #locations{
-        grid-area: locations;
-        margin-top: 24px;
-        color: $tanLight;
-
-        @include tab{
-            margin-top: 28px;
-        }
-
-        @include desk{
-            margin-top: 40px;
-        }
-
-        @include hd{
-            margin-top: 66px;
-        }
-
-        li{
-
-            border-bottom: 1px solid $white;
-            margin-bottom: 16px;
-            padding-bottom: 16px;
-            margin-top: 16px;
-
-            h4{
-                font-weight: 600;
-                font-size: rem-calc(16);
-            }
-
-            >div{
-
-                >div{
-                    display: flex;
-                    margin-left: auto;
-                }
-
-                i{
-                    align-items: center;
-                    display: flex;
-                    margin-right: 10px;
-                    color: $red;
-                }
-               
-                address{
-                    font-weight: 400;
-                    font-size: rem-calc(12);
-                }
-
-                a{
-                    font-family: 'Roboto', sans-serif;
-                    font-weight: 400;
-                    font-size: rem-calc(12);
-                    text-decoration: none;
-                }
-
-                .location{
-                    margin: 16px 0px;
-
-                    @include tab{
-                        margin: 24px 0px;
-                    }
-
-                    @include desk{
-                        margin: 16px 0px;
-                    }
-                }
-
-                .phone{
-                    margin: 24px 0px 16px;
-                }
-    
-                a:link, a:visited{
-                    color: $tanLight;
-                    transition: 0.25s;
-                }
-                
-                a:hover, a:active{
-                    color: $red;
-                }
-            }
-
-            &:last-child {
-                border: none;
-                margin-bottom: 32px;
-                padding-bottom: 0px;
-
-                @include tab{
-                    margin-bottom: 45px;
-                }
-
-                @include desk{
-                    margin-bottom: 55px;
-                }
-            }
-        }
-    }
-
-    #search2{
-        grid-area: search;
-        background: $tealDark;
-        color: $tanLight;
-        margin-top: 24px;
-
-        @include tab{
-            margin-top: 28px;
-        }
-
-        @include desk{
-            margin-top: 40px;
-        }
-
-        @include hd{
-            margin-top: 66px;
-        }
-
-        >div{
-
-
-            >h3{
-                margin-bottom: 20px;
-
-                @include tab{
-                    margin-bottom: 24px;
-                }
-
-                @include desk{
-                    margin-bottom: 20px;
-                    text-align: right;
-                }
-            }
-
-            >form{
-
-                >input{
-                    font-weight: 600;
-                    font-size: rem-calc(14);
-                    background-color: $indigoDark;
-                    border: none;
-                    border-radius: 0;
-                    color: $tealDark;
-                    padding: 16px 2%;
-                    width: 96%;
-
-                    &::placeholder {
-                        color: $tealDark;
-                    }
-    
-                    &:-ms-input-placeholder {
-                        color: $tealDark;
-                    }
-    
-                    &::-ms-input-placeholder {
-                        color: $tealDark;
-                    }
-                }
-
-                >button{
-                    display: flex;
-                    margin-top: 16px;
-                    margin-left: auto;
-
-                    @include tab{
-                        margin-top: 24px;
-                    }
-
-                    @include desk{
-                        margin-top: 16px;
-                    }
-                }
-            }
-        }
-    }
-
-    #media{
-        grid-area: media;
-        margin-top: 16px;
-
-        @include tab{
-            margin-top: 28px;
-        }
-
-        @include desk{
-            margin-top: 40px;
-            text-align: right;
-        }
-
-        @include hd{
-            margin-top: 66px;
-        }
-
-        h3{
-            color: $tanLight;
-            
-             @include desk{
-                margin-right: 24px;
-             }
-        }
-
-        >ul{
-            display: flex;
-
-            @include desk{
-                justify-content: flex-end;
-            }
-
-            li{
-                margin-right: 16px;
-                margin-top: 16px;
-                margin-bottom: 20px;
-
-                @include tab{
-                    margin-right: 24px;
-                    margin-top: 24px;
-                    margin-bottom: 0px;
-                }
-
-                a:link, a:visited {
-                    color: $white;
-                    font-size: rem-calc(30);
-
-                    &:hover, &:active {
-                        color: $red;
-                    }
-            }
-        }
-    }
-}
+			grid-template-columns: 50% auto;
+		}
+		@include desk {
+			grid-template-areas: "locations search media";
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+	#locations {
+		color: $tanLight;
+		grid-area: locations;
+		margin-top: 24px;
+		@include tab {
+			margin-top: 28px;
+		}
+		@include desk {
+			margin-top: 40px;
+		}
+		@include hd {
+			margin-top: 66px;
+		}
+		li {
+			border-bottom: 1px solid $white;
+			margin-bottom: 16px;
+			margin-top: 16px;
+			padding-bottom: 16px;
+			h4 {
+				font-size: rem-calc(16);
+				font-weight: 600;
+			}
+			>div {
+				>div {
+					display: flex;
+					margin-left: auto;
+				}
+				i {
+					align-items: center;
+					color: $red;
+					display: flex;
+					margin-right: 10px;
+				}
+				address {
+					font-size: rem-calc(12);
+					font-weight: 400;
+				}
+				a {
+					font-family: 'Roboto', sans-serif;
+					font-size: rem-calc(12);
+					font-weight: 400;
+					text-decoration: none;
+				}
+				.location {
+					margin: 16px 0px;
+					@include tab {
+						margin: 24px 0px;
+					}
+					@include desk {
+						margin: 16px 0px;
+					}
+				}
+				.phone {
+					margin: 24px 0px 16px;
+				}
+				a:link, a:visited {
+					color: $tanLight;
+					transition: 0.25s;
+				}
+				a:hover, a:active {
+					color: $red;
+				}
+			}
+			&:last-child {
+				border: none;
+				margin-bottom: 32px;
+				padding-bottom: 0px;
+				@include tab {
+					margin-bottom: 45px;
+				}
+				@include desk {
+					margin-bottom: 55px;
+				}
+			}
+		}
+	}
+	#search2 {
+		background: $tealDark;
+		color: $tanLight;
+		grid-area: search;
+		margin-top: 24px;
+		@include tab {
+			margin-top: 28px;
+		}
+		@include desk {
+			margin-top: 40px;
+		}
+		@include hd {
+			margin-top: 66px;
+		}
+		>div {
+			>h3 {
+				margin-bottom: 20px;
+				@include tab {
+					margin-bottom: 24px;
+				}
+				@include desk {
+					margin-bottom: 20px;
+					text-align: right;
+				}
+			}
+			>form {
+				>input {
+					background-color: $indigoDark;
+					border: none;
+					border-radius: 0;
+					color: $tealDark;
+					font-size: rem-calc(14);
+					font-weight: 600;
+					padding: 16px 2%;
+					width: 96%;
+					&::placeholder {
+						color: $tealDark;
+					}
+					&:-ms-input-placeholder {
+						color: $tealDark;
+					}
+					&::-ms-input-placeholder {
+						color: $tealDark;
+					}
+				}
+				>button {
+					display: flex;
+					margin-left: auto;
+					margin-top: 16px;
+					@include tab {
+						margin-top: 24px;
+					}
+					@include desk {
+						margin-top: 16px;
+					}
+				}
+			}
+		}
+	}
+	#media {
+		grid-area: media;
+		margin-top: 16px;
+		@include tab {
+			margin-top: 28px;
+		}
+		@include desk {
+			margin-top: 40px;
+			text-align: right;
+		}
+		@include hd {
+			margin-top: 66px;
+		}
+		h3 {
+			color: $tanLight;
+			@include desk {
+				margin-right: 24px;
+			}
+		}
+		>ul {
+			display: flex;
+			@include desk {
+				justify-content: flex-end;
+			}
+			li {
+				margin-bottom: 20px;
+				margin-right: 16px;
+				margin-top: 16px;
+				@include tab {
+					margin-bottom: 0px;
+					margin-right: 24px;
+					margin-top: 24px;
+				}
+				a:link, a:visited {
+					color: $white;
+					font-size: rem-calc(30);
+					&:hover, &:active {
+						color: $red;
+					}
+				}
+			}
+		}
+	}
 }

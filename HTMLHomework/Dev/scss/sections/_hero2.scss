@@ -1,62 +1,53 @@
-#hero2{
-
-    @include desk{
-        display: grid;
-        grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". hero2 .";
-    }
-
-    @include hd{
-        grid-template-columns: auto 1200px auto;
-    }
-
-    ul{
-        display: grid;
-        grid-template-rows: 360px 486px;
-        grid-template-areas: "diner2"
+#hero2 {
+	@include desk {
+		display: grid;
+		grid-template-areas: ". hero2 .";
+		grid-template-columns: 16px auto 16px;
+	}
+	@include hd {
+		grid-template-columns: auto 1200px auto;
+	}
+	ul {
+		display: grid;
+		grid-template-areas: "diner2"
                              "jukebox";
-        
-        @include tab{
-            grid-template-columns: 50% auto;
-            grid-template-rows: 625px;
-            grid-template-areas: "diner2 jukebox";
-        }
-    
-        @include desk{
-            grid-area: hero2;
-            grid-template-columns: 60% auto;
-        }
-    
-        @include hd{
-            grid-template-columns: 65% auto;
-            grid-template-rows: 377px 377px;
-            grid-template-areas: "diner2 jukebox"
+		grid-template-rows: 360px 486px;
+		@include tab {
+			grid-template-areas: "diner2 jukebox";
+			grid-template-columns: 50% auto;
+			grid-template-rows: 625px;
+		}
+		@include desk {
+			grid-area: hero2;
+			grid-template-columns: 60% auto;
+		}
+		@include hd {
+			grid-template-areas: "diner2 jukebox"
                                  "diner2 stools";
-        }
-        
-        li{
-            background-size: cover;
-            background-position: center;
-
-            img{
-                width: 100%;
-                height: 377px;
-            }
-        }
-    }
-
-    #diner2{
-        grid-area: diner2;
-        background-image: url("../img/Hero2/hero2.jpg");
-    }
-    #jukebox{
-        grid-area: jukebox;
-        background-image: url("../img/Hero2/hero3.jpg");
-    }
-    #stools{
-        display: none;
-        @include hd{
-            display: list-item;
-        }
-    }
+			grid-template-columns: 65% auto;
+			grid-template-rows: 377px 377px;
+		}
+		li {
+			background-position: center;
+			background-size: cover;
+			img {
+				height: 377px;
+				width: 100%;
+			}
+		}
+	}
+	#diner2 {
+		background-image: url("../img/Hero2/hero2.jpg");
+		grid-area: diner2;
+	}
+	#jukebox {
+		background-image: url("../img/Hero2/hero3.jpg");
+		grid-area: jukebox;
+	}
+	#stools {
+		display: none;
+		@include hd {
+			display: list-item;
+		}
+	}
 }

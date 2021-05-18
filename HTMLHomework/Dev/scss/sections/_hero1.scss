@@ -1,132 +1,107 @@
-#hero1{
-
-    img{
-        object-fit: cover;
-        width: 100%;
-        display: block;
-    }
-
-    ul{
-
-        @include tab{
-            display: grid;
-            grid-template-columns: 40% auto;
-            grid-template-areas: "box1 box2"; 
-        }
-
-        @include desk{
-                display: grid; 
-                grid-template-columns: 50% auto;
-                grid-template-areas: "box1 box2";
-        }
-
-            li{
-                display: grid;
-                grid-template-columns: 16px auto 16px;
-                grid-template-areas: ". boxes .";
-                padding: 16px 0px;
-
-                @include tab{
-                    padding: 20px 0px;
-                }
-
-                @include desk{
-                    padding: 16px 0px;
-                }
-
-                @include hd{
-                    grid-template-columns: auto 480px 16px;
-                }
-
-                a{
-                    grid-area: boxes;
-                    text-decoration: none;
-                    display: flex;
-        
-                    &:link, &:visited{
-                        color: $tealDark;
-                        transition: 0.25s;
-                    }
-                    
-                    &:hover, &:active{
-                        color: $tanLight;
-                    }
-
-                    div{
-
-                    }
-
-                    .details{
-                        display: flex;
-                        margin-left: auto;
-                        align-items: center;
-                        font-weight: 700;
-                        font-size: rem-calc(18);
-                        color: $tealDark;
-                        
-                        h4{
-                            display: none;
-                            margin-right: 8px;
-
-                            @include desk{
-                                display: block;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        
-        #box1{
-            grid-area: box1;
-            background-color: $redDark;
-
-            a{
-                div{
-                    h3{
-                        font-size: rem-calc (18);
-                        font-weight: 700;
-        
-                        @include desk{
-                            font-size: rem-calc(25);
-                        }
-                    }
-        
-                    h4{
-                        font-size: rem-calc(16);
-                        font-weight: 600;
-        
-                        @include tab{
-                            font-size: rem-calc(14);
-                        }
-                        @include desk{
-                            font-size: rem-calc(16);
-                        }
-                    }
-                }
-            }
-           
-        }
-        #box2{
-            grid-area: box2;
-            background-color: $red;
-
-            @include hd{
-                grid-template-columns:  0px 496px auto;
-            }
-        }
-
-            a{
-                padding-left: 16px;
-                div{
-                    h4{
-                        font-size: rem-calc(16);
-                        font-weight: 600;
-        
-                        span{
-                            font-weight: 400;
-                        }
-                    }
-                }
-                }
-            }
+#hero1 {
+	img {
+		display: block;
+		object-fit: cover;
+		width: 100%;
+	}
+	ul {
+		@include tab {
+			display: grid;
+			grid-template-areas: "box1 box2";
+			grid-template-columns: 40% auto;
+		}
+		@include desk {
+			display: grid;
+			grid-template-areas: "box1 box2";
+			grid-template-columns: 50% auto;
+		}
+		li {
+			display: grid;
+			grid-template-areas: ". boxes .";
+			grid-template-columns: 16px auto 16px;
+			padding: 16px 0px;
+			@include tab {
+				padding: 20px 0px;
+			}
+			@include desk {
+				padding: 16px 0px;
+			}
+			@include hd {
+				grid-template-columns: auto 480px 16px;
+			}
+			a {
+				display: flex;
+				grid-area: boxes;
+				text-decoration: none;
+				&:link, &:visited {
+					color: $tealDark;
+					transition: 0.25s;
+				}
+				&:hover, &:active {
+					color: $tanLight;
+				}
+				div {
+				}
+				.details {
+					align-items: center;
+					color: $tealDark;
+					display: flex;
+					font-size: rem-calc(18);
+					font-weight: 700;
+					margin-left: auto;
+					h4 {
+						display: none;
+						margin-right: 8px;
+						@include desk {
+							display: block;
+						}
+					}
+				}
+			}
+		}
+	}
+	#box1 {
+		background-color: $redDark;
+		grid-area: box1;
+		a {
+			div {
+				h3 {
+					font-size: rem-calc (18);
+					font-weight: 700;
+					@include desk {
+						font-size: rem-calc(25);
+					}
+				}
+				h4 {
+					font-size: rem-calc(16);
+					font-weight: 600;
+					@include tab {
+						font-size: rem-calc(14);
+					}
+					@include desk {
+						font-size: rem-calc(16);
+					}
+				}
+			}
+		}
+	}
+	#box2 {
+		background-color: $red;
+		grid-area: box2;
+		@include hd {
+			grid-template-columns: 0px 496px auto;
+		}
+	}
+	a {
+		padding-left: 16px;
+		div {
+			h4 {
+				font-size: rem-calc(16);
+				font-weight: 600;
+				span {
+					font-weight: 400;
+				}
+			}
+		}
+	}
+}

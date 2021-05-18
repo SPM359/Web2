@@ -1,41 +1,35 @@
 #nav-container {
-    ul {
-        height: 100%;
-
-        @include desk{
-            display: flex;
-            justify-content: flex-end;
-        }
-
-        li {
-            margin-bottom: 20px;
-            text-align: right;
-
-            @include desk{
-                align-items: center;
-                border-right: 2px solid $indigo;
-                display: flex;
-                margin-bottom: 0px;
-            }
-
-            a:link, a:visited {
-                color: $tealDark;
-                font-family: 'Montserrat', sans-serif;
-                padding: 0 20px;
-                text-decoration: none;
-                transition: 0.25s;
-                @include desk{
-                    color: $tanLight;
-                }
-
-                &:hover, &:active {
-                    color: $red;
-                }
-            }
-        }
-
-        li:last-child {
-            border: none;
-        }
-    }
+	ul {
+		height: 100%;
+		@include desk {
+			display: flex;
+			justify-content: flex-end;
+		}
+		li {
+			margin-bottom: 20px;
+			text-align: right;
+			@include desk {
+				align-items: center;
+				border-right: 2px solid $indigo;
+				display: flex;
+				margin-bottom: 0px;
+			}
+			a:link, a:visited {
+				color: $tealDark;
+				font-family: 'Montserrat', sans-serif;
+				padding: 0 20px;
+				text-decoration: none;
+				transition: 0.25s;
+				@include desk {
+					color: $tanLight;
+				}
+				&:hover, &:active {
+					color: $red;
+				}
+			}
+		}
+		li:last-child {
+			border: none;
+		}
+	}
 }

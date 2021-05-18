@@ -1,83 +1,67 @@
-#search{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". search .";
-    background-color: $indigoLight;
-    padding: 18px 0px;
-    margin-top: 102px;
-
-    @include tab{
-        padding: 24px 0px;
-    }
-
-    @include desk{
-        padding: 24px 0px 24px;
-    }
-
-    @include hd{
-        grid-template-columns: auto 1000px auto;
-    }
-
-    >div{
-        grid-area: search;
-
-        >form{
-
-            display: grid;
-            grid-template-columns: 80% auto;
-            gap: 10px;
-
-            @include tab{
-                grid-template-columns: 90% auto;
-            }
-
-            @include desk{
-                grid-template-columns: 93% auto;
-            }
-
-            input{
-                background-color: transparent;
-                border: none;
-                border-bottom: 1px solid $goldenDark;
-                border-radius: 0px;
-                font-weight: 200;
-                font-size: rem-calc(20);
-
-                @include tab{
-                    font-size: rem-calc(30);
-                }
-
-                @include desk{
-                    font-size: rem-calc(35);
-                }
-
-                &::placeholder {
-                    color: $goldenDark;
-                }
-
-                &:-ms-input-placeholder {
-                    color: $goldenDark;
-                }
-
-                &::-ms-input-placeholder {
-                    color: $goldenDark;
-                }
-            }
-            
-            button{
-                background-color: $red;
-                color: $tanLight;
-                border: none;
-                border-radius: 5px;
-                padding: 10px 0x;
-                font-size: rem-calc(30);
-
-                &:hover, &:active {
-                    background-color: $redDark;
-                    color: $tealDark;
-                    transition: 0.25s;
-                }
-            }
-        }
-    }
+#search {
+	background-color: $indigoLight;
+	display: grid;
+	grid-template-areas: ". search .";
+	grid-template-columns: 16px auto 16px;
+	margin-top: 102px;
+	padding: 18px 0px;
+	@include tab {
+		padding: 24px 0px;
+	}
+	@include desk {
+		padding: 24px 0px 24px;
+	}
+	@include hd {
+		grid-template-columns: auto 1000px auto;
+	}
+	>div {
+		grid-area: search;
+		>form {
+			display: grid;
+			gap: 10px;
+			grid-template-columns: 80% auto;
+			@include tab {
+				grid-template-columns: 90% auto;
+			}
+			@include desk {
+				grid-template-columns: 93% auto;
+			}
+			input {
+				background-color: transparent;
+				border: none;
+				border-bottom: 1px solid $goldenDark;
+				border-radius: 0px;
+				font-size: rem-calc(20);
+				font-weight: 200;
+				@include tab {
+					font-size: rem-calc(30);
+				}
+				@include desk {
+					font-size: rem-calc(35);
+				}
+				&::placeholder {
+					color: $goldenDark;
+				}
+				&:-ms-input-placeholder {
+					color: $goldenDark;
+				}
+				&::-ms-input-placeholder {
+					color: $goldenDark;
+				}
+			}
+			button {
+				background-color: $red;
+				border: none;
+				border-radius: 5px;
+				color: $tanLight;
+				font-size: rem-calc(30);
+				padding: 10px 0x;
+				&:hover, &:active {
+					background-color: $redDark;
+					color: $tealDark;
+					transition: 0.25s;
+				}
+			}
+		}
+	}
 }
