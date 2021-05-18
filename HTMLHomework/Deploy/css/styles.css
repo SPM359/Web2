@@ -139,14 +139,18 @@ header > div #burger-container i {
   font-size: 1.875rem;
   color: #DD2D4A;
 }
-header > div #nav-container {
+header > div #burger-container i:hover, header > div #burger-container i:active {
+  color: #AFAFD5;
+  transition: 0.25s;
+}
+header #nav-container {
   background-color: #E1DAD0;
   grid-area: nav;
   display: none;
   padding: 20px 10px 10px;
 }
 @media (min-width: 1024px) {
-  header > div #nav-container {
+  header #nav-container {
     background-color: #141719;
     display: block !important;
   }

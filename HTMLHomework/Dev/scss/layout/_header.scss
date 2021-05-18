@@ -40,6 +40,12 @@ header{
                 cursor: pointer;
                 font-size: rem-calc(30);
                 color: $red;
+                
+                    &:hover, &:active {
+                        color: $indigo;
+                        transition: 0.25s;
+                    }
+                }
             }
         }
 
@@ -55,4 +61,3 @@ header{
             }
         }
     }
-}
