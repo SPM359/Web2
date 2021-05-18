@@ -80,7 +80,6 @@ footer {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
-  color: #FFFAF3;
   background-color: #141719;
 }
 @media (min-width: 1440px) {
@@ -94,10 +93,6 @@ footer > div {
 footer > div h3 {
   font-weight: 600;
   font-size: 1.25rem;
-}
-footer > div h4 {
-  font-weight: 600;
-  font-size: 1rem;
 }
 @media (min-width: 768px) {
   footer > div {
@@ -115,6 +110,7 @@ footer > div h4 {
 footer #locations {
   grid-area: locations;
   margin-top: 24px;
+  color: #FFFAF3;
 }
 @media (min-width: 768px) {
   footer #locations {
@@ -132,26 +128,50 @@ footer #locations {
   }
 }
 footer #locations li {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
   margin-top: 16px;
 }
-footer #locations li > div {
+footer #locations li h4 {
+  font-weight: 600;
+  font-size: 1rem;
+}
+footer #locations li > div > div {
   display: flex;
-  align-items: flex-end;
   margin-left: auto;
-  margin: 16px 0px;
+}
+footer #locations li > div i {
+  align-items: center;
+  display: flex;
+  margin-right: 10px;
+  color: #DD2D4A;
 }
 footer #locations li > div address {
   font-weight: 400;
   font-size: 0.75rem;
-}
-footer #locations li > div i {
-  color: #DD2D4A;
 }
 footer #locations li > div a {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 0.75rem;
   text-decoration: none;
+}
+footer #locations li > div .location {
+  margin: 16px 0px;
+}
+@media (min-width: 768px) {
+  footer #locations li > div .location {
+    margin: 24px 0px;
+  }
+}
+@media (min-width: 1024px) {
+  footer #locations li > div .location {
+    margin: 16px 0px;
+  }
+}
+footer #locations li > div .phone {
+  margin: 24px 0px 16px;
 }
 footer #locations li > div a:link, footer #locations li > div a:visited {
   color: #FFFAF3;
@@ -160,12 +180,25 @@ footer #locations li > div a:link, footer #locations li > div a:visited {
 footer #locations li > div a:hover, footer #locations li > div a:active {
   color: #DD2D4A;
 }
-footer #locations .top-location {
-  border-bottom: 1px solid #fff;
+footer #locations li:last-child {
+  border: none;
+  margin-bottom: 32px;
+  padding-bottom: 0px;
+}
+@media (min-width: 768px) {
+  footer #locations li:last-child {
+    margin-bottom: 45px;
+  }
+}
+@media (min-width: 1024px) {
+  footer #locations li:last-child {
+    margin-bottom: 55px;
+  }
 }
 footer #search2 {
   grid-area: search;
   background: #141719;
+  color: #FFFAF3;
   margin-top: 24px;
 }
 @media (min-width: 768px) {
@@ -183,10 +216,29 @@ footer #search2 {
     margin-top: 66px;
   }
 }
+footer #search2 > div > h3 {
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  footer #search2 > div > h3 {
+    margin-bottom: 24px;
+  }
+}
+@media (min-width: 1024px) {
+  footer #search2 > div > h3 {
+    margin-bottom: 20px;
+    text-align: right;
+  }
+}
 footer #search2 > div > form > input {
   font-weight: 600;
   font-size: 0.875rem;
+  background-color: #7E7E9A;
+  border: none;
+  border-radius: 0;
   color: #141719;
+  padding: 16px 2%;
+  width: 96%;
 }
 footer #search2 > div > form > input::placeholder {
   color: #141719;
@@ -198,7 +250,19 @@ footer #search2 > div > form > input::-ms-input-placeholder {
   color: #141719;
 }
 footer #search2 > div > form > button {
-  background-color: #DD2D4A;
+  display: flex;
+  margin-top: 16px;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  footer #search2 > div > form > button {
+    margin-top: 24px;
+  }
+}
+@media (min-width: 1024px) {
+  footer #search2 > div > form > button {
+    margin-top: 16px;
+  }
 }
 footer #media {
   grid-area: media;
@@ -212,11 +276,20 @@ footer #media {
 @media (min-width: 1024px) {
   footer #media {
     margin-top: 40px;
+    text-align: right;
   }
 }
 @media (min-width: 1440px) {
   footer #media {
     margin-top: 66px;
+  }
+}
+footer #media h3 {
+  color: #FFFAF3;
+}
+@media (min-width: 1024px) {
+  footer #media h3 {
+    margin-right: 24px;
   }
 }
 footer #media > ul {
@@ -458,12 +531,23 @@ footer #media > ul li a:link:hover, footer #media > ul li a:link:active, footer 
 }
 #careers ul {
   display: grid;
+  margin: 16px 0px 24px;
+  gap: 16px;
 }
 @media (min-width: 768px) {
   #careers ul {
     grid-template-columns: 50% auto;
     grid-area: careers;
-    gap: 24px;
+  }
+}
+@media (min-width: 768px) {
+  #careers ul {
+    margin: 24px 0px 40px;
+  }
+}
+@media (min-width: 1024px) {
+  #careers ul {
+    margin: 24px 0px 60px;
   }
 }
 #careers ul li {
@@ -471,17 +555,6 @@ footer #media > ul li a:link:hover, footer #media > ul li a:link:active, footer 
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". careers-content .";
   background-color: #AFAFD5;
-  margin: 16px 0px;
-}
-@media (min-width: 768px) {
-  #careers ul li {
-    margin: 24px 0px 40px;
-  }
-}
-@media (min-width: 1024px) {
-  #careers ul li {
-    margin: 24px 0px 60px;
-  }
 }
 #careers ul li > div {
   grid-area: careers-content;
