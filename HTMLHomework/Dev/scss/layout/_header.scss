@@ -3,49 +3,16 @@ header{
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". header .";
     background-color: $tealDark;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
 
     >div{
         display: grid;
         grid-area: header;
-        grid-template-areas: "burger burger"
-                             "nav nav";
+
 
         @include desk{
-            grid-template-areas: "survival nav";
+            grid-template-areas: "nav nav";
             grid-template-columns: 20% auto;
         }
 
-        #burger-container {
-            align-items: center;
-            display: flex;
-            grid-area: burger;
-            padding: 10px;
-
-            @include desk {
-                display: none !important;
-            }
-
-            i {
-                margin-left: auto;
-                cursor: pointer;
-                font-size: rem-calc(30);
-            }
         }
-
-        #nav-container {
-            background-color: $tealDark;
-            display: none;
-            grid-area: nav;
-            padding: 20px 10px 10px;
-
-            @include desk {
-                background-color: $tanLight;
-                display: block !important;
-            }
     }
-    }
-}

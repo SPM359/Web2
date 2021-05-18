@@ -701,7 +701,7 @@
       "oF" : 2
     },
     "\/HTMLHomework\/Dev\/js\/scripts.js" : {
-      "bF" : 0,
+      "bF" : 4,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
@@ -923,6 +923,22 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/HTMLHomework\/package-lock.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/HTMLHomework\/package-lock-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/HTMLHomework\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/HTMLHomework\/package-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
     }
   },
   "hooks" : [
