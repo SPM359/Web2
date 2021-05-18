@@ -535,78 +535,52 @@ footer #media > ul {
     grid-template-columns: auto 1000px auto;
   }
 }
-#menu h1 {
-  font-size: 1.25rem;
-  font-weight: 200;
-  color: #8E7857;
-  margin-left: 16px;
-  margin-top: 19px;
-  margin-bottom: 11px;
-}
-@media (min-width: 768px) {
-  #menu h1 {
-    font-size: 1.75rem;
-    margin-top: 27px;
-    margin-bottom: 16px;
-  }
-}
-@media (min-width: 1024px) {
-  #menu h1 {
-    font-size: 2.1875rem;
-  }
-}
-@media (min-width: 1440px) {
-  #menu h1 {
-    font-size: 2.3125rem;
-  }
-}
-#menu h1 #menu-title {
-  display: grid;
-  grid-area: menuTitle;
-  color: #8E7857;
-}
 #menu #menu-items {
   display: grid;
   grid-area: menu;
   color: #141719;
   margin-bottom: 24px;
 }
+#menu #menu-title {
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: #8E7857;
+  margin: 24px 16px 16px;
+}
+@media (min-width: 768px) {
+  #menu #menu-title {
+    font-size: 1.75rem;
+    margin: 36px 0px 24px;
+  }
+}
+@media (min-width: 1024px) {
+  #menu #menu-title {
+    font-size: 2.1875rem;
+    margin: 60px 0px 24px;
+  }
+}
+@media (min-width: 1440px) {
+  #menu #menu-title {
+    font-size: 2.3125rem;
+    margin: 60px 0px 16px;
+  }
+}
 #menu ul {
   display: grid;
-}
-#menu ul h2 {
-  font-size: 1.6875rem;
-  font-weight: 600;
-  margin-top: 10px;
-  margin-bottom: 40px;
-}
-@media (min-width: 768px) {
-  #menu ul h2 {
-    margin-top: 18px;
-    margin-bottom: 45px;
-  }
-}
-#menu ul p {
-  font-size: 1rem;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-@media (min-width: 768px) {
-  #menu ul p {
-    margin-bottom: 20px;
-  }
+  column-gap: 16px;
+  row-gap: 16px;
 }
 @media (min-width: 768px) {
   #menu ul {
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "n1 n1 n2 n2" "n3 n3 n4 n4" ". n5 n5 .";
-    gap: 16px;
   }
 }
 @media (min-width: 1024px) {
   #menu ul {
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: "n1 n1 n2 n2 n3 n3" ". n4 n4 n5 n5 .";
+    row-gap: 18px;
   }
 }
 #menu ul li {
@@ -622,6 +596,38 @@ footer #media > ul {
 }
 #menu ul li > section > div {
   grid-area: menu-item;
+}
+#menu ul li > section > div h2 {
+  font-size: 1.6875rem;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+@media (min-width: 768px) {
+  #menu ul li > section > div h2 {
+    margin-top: 24px;
+    margin-bottom: 45px;
+  }
+}
+@media (min-width: 1024px) {
+  #menu ul li > section > div h2 {
+    margin-bottom: 40px;
+  }
+}
+#menu ul li > section > div p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+@media (min-width: 768px) {
+  #menu ul li > section > div p {
+    margin-bottom: 24px;
+  }
+}
+@media (min-width: 1024px) {
+  #menu ul li > section > div p {
+    margin-bottom: 20px;
+  }
 }
 #menu ul li > section > div > button {
   background-color: #DD2D4A;

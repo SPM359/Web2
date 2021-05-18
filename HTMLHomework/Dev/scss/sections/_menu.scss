@@ -10,33 +10,6 @@
         grid-template-columns: auto 1000px auto;
     }
 
-    h1{ 
-        font-size: rem-calc(20px);
-        font-weight: 200;
-        color: $goldenDark;
-        margin-left: 16px;
-        margin-top: 19px;
-        margin-bottom: 11px;
-
-        @include tab{
-            font-size: rem-calc(28);
-            margin-top: 27px;
-            margin-bottom: 16px;
-        }
-        @include desk{
-            font-size: rem-calc(35);
-        }
-        @include hd{
-            font-size: rem-calc(37);
-    }
-
-    #menu-title{
-        display: grid;
-        grid-area: menuTitle;
-        color: $goldenDark;
-        }
-    }
-
     #menu-items{
         display: grid;
         grid-area: menu; 
@@ -44,51 +17,51 @@
         margin-bottom: 24px;
     }
 
+    #menu-title{ 
+        font-size: rem-calc(20px);
+        font-weight: 200;
+        color: $goldenDark;
+        margin: 24px 16px 16px;
+
+        @include tab{
+            font-size: rem-calc(28);
+            margin: 36px 0px 24px;
+        }
+        @include desk{
+            font-size: rem-calc(35);
+            margin: 60px 0px 24px;
+        }
+        @include hd{
+            font-size: rem-calc(37);
+            margin: 60px 0px 16px;
+    }
+    }
+
     ul{
         display: grid;
-
-        h2{
-            font-size: rem-calc(27);
-            font-weight: 600;
-            margin-top:10px;
-            margin-bottom:40px;
-
-            @include tab{
-                margin-top:18px;
-                margin-bottom:45px;
-            }
-        }
-
-        p{
-            font-size: rem-calc(16);
-            font-weight: 400;
-            margin-bottom: 10px;
-
-            @include tab{
-                margin-bottom: 20px;
-            }
-        }
+        column-gap: 16px; 
+        row-gap: 16px;
 
         @include tab{
             grid-template-columns: repeat(4, 1fr);     
             grid-template-areas: "n1 n1 n2 n2"
                                  "n3 n3 n4 n4"
-                                 ". n5 n5 .";
-            gap: 16px;   
+                                 ". n5 n5 .";  
         }
 
         @include desk{
             grid-template-columns: repeat(6, 1fr);     
             grid-template-areas: "n1 n1 n2 n2 n3 n3"
                                  ". n4 n4 n5 n5 .";
+            row-gap: 18px;
         }
 
         li{
+            background-color: $tanDark;
+
             >img{
                 width: 100%
             }
-
-            background-color: $tanDark;
 
             >section{
                 display: grid;
@@ -97,6 +70,36 @@
                 
                 >div{
                     grid-area: menu-item;
+
+                    h2{
+                        font-size: rem-calc(27);
+                        font-weight: 600;
+                        margin-top:16px;
+                        margin-bottom:40px;
+            
+                        @include tab{
+                            margin-top:24px;
+                            margin-bottom:45px;
+                        }
+            
+                        @include desk{
+                            margin-bottom: 40px;
+                        }
+                    }
+            
+                    p{
+                        font-size: rem-calc(16);
+                        font-weight: 400;
+                        margin-bottom: 16px;
+            
+                        @include tab{
+                            margin-bottom: 24px;
+                        }
+            
+                        @include desk{
+                            margin-bottom: 20px;
+                        }
+                    }
 
                     >button{
                         background-color: $red;
