@@ -9,42 +9,30 @@
 
         li {
             margin-bottom: 20px;
-            // border: 1px solid red;
             text-align: right;
 
             @include desk{
                 align-items: center;
-                border-right: 2px solid $tanLight;
+                border-right: 2px solid $indigo;
                 display: flex;
                 margin-bottom: 0px;
             }
 
-            a:link,
-            a:visited {
-                color: $white;
-                font-family: 'Comfortaa', cursive;
+            a:link, a:visited {
+                color: $tanLight;
+                font-family: 'Montserrat', sans-serif;
                 padding: 0 20px;
                 text-decoration: none;
                 transition: 0.25s;
                 @include desk{
-                    color: $black;
+                    color: $tanLight;
                 }
 
-                &:hover,
-                &:active {
+                &:hover, &:active {
                     color: $red;
                 }
             }
         }
-
-        // li:first-child {
-        //     border: none;
-        //     display: none;
-
-        //     @include md{
-        //         display: list-item;
-        //     }
-        // }
 
         li:last-child {
             border: none;

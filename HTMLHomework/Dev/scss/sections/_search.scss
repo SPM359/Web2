@@ -4,6 +4,7 @@
     grid-template-areas: ". search .";
     background-color: $indigoLight;
     padding: 18px 0px;
+    margin-top: 102px;
 
     @include tab{
         padding: 24px 0px;

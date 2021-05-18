@@ -1,8 +1,5 @@
 header{
 
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". header .";
     background-color: $tealDark;
     left: 0;
     position: fixed;
@@ -17,14 +14,13 @@ header{
         "nav nav";
         grid-template-columns: 20% auto;
 
-        @include lg {
+        @include desk{
             grid-template-areas: "logo nav";
             grid-template-columns: 20% auto;
         }
 
-        #logo-container{
-            grid-area: logo;
-            padding: 10px;
+       #logo-container{
+           grid-area: logo;
         }
 
         #burger-container {
@@ -41,18 +37,18 @@ header{
                 margin-left: auto;
                 cursor: pointer;
                 font-size: rem-calc(30);
+                color: $red;
             }
         }
 
         #nav-container {
-            // border: 1px solid blue;
             background-color: $tanLight;
             display: none;
             grid-area: nav;
             padding: 20px 10px 10px;
 
             @include desk{
-                background-color: $white;
+                background-color: $tealDark;
                 display: block !important;
             }
         }
